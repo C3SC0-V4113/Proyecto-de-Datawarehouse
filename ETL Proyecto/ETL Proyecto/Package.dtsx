@@ -11,8 +11,8 @@
   DTS:LocaleID="22538"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{AE13F0C5-86F7-46FB-BA13-5DCE41E4BA56}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{64C4520B-1109-4F2F-AE36-0531E635DD20}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -23,7 +23,7 @@
       DTS:ObjectName="Administrador de conexiones con Excel">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -66,138 +66,34 @@
                   name="Data Conversion Input">
                   <inputColumns>
                     <inputColumn
+                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[Año]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Año"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[Año]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[CIF]"
+                      cachedDataType="r8"
+                      cachedName="CIF"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]" />
+                    <inputColumn
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[PAIS]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="PAIS"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[PAIS]" />
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[PAIS]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[CODIGO ARANCELARIO]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="CODIGO ARANCELARIO"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[CODIGO ARANCELARIO]" />
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CODIGO ARANCELARIO]" />
                     <inputColumn
                       refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[DESCRIPCION]"
                       cachedDataType="wstr"
                       cachedLength="255"
                       cachedName="DESCRIPCION"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[DESCRIPCION]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 1994]"
-                      cachedDataType="r8"
-                      cachedName=" 1994"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1994]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 1995]"
-                      cachedDataType="r8"
-                      cachedName=" 1995"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1995]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 1996]"
-                      cachedDataType="r8"
-                      cachedName=" 1996"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1996]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 1997]"
-                      cachedDataType="r8"
-                      cachedName=" 1997"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1997]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 1998]"
-                      cachedDataType="r8"
-                      cachedName=" 1998"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1998]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 1999]"
-                      cachedDataType="r8"
-                      cachedName=" 1999"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1999]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2000]"
-                      cachedDataType="r8"
-                      cachedName=" 2000"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2000]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2001]"
-                      cachedDataType="r8"
-                      cachedName=" 2001"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2001]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2002]"
-                      cachedDataType="r8"
-                      cachedName=" 2002"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2002]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2003]"
-                      cachedDataType="r8"
-                      cachedName=" 2003"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2003]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2004]"
-                      cachedDataType="r8"
-                      cachedName=" 2004"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2004]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2005]"
-                      cachedDataType="r8"
-                      cachedName=" 2005"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2005]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2006]"
-                      cachedDataType="r8"
-                      cachedName=" 2006"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2006]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2007]"
-                      cachedDataType="r8"
-                      cachedName=" 2007"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2007]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2008]"
-                      cachedDataType="r8"
-                      cachedName=" 2008"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2008]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2009]"
-                      cachedDataType="r8"
-                      cachedName=" 2009"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2009]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2010]"
-                      cachedDataType="r8"
-                      cachedName=" 2010"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2010]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2011]"
-                      cachedDataType="r8"
-                      cachedName=" 2011"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2011]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2012]"
-                      cachedDataType="r8"
-                      cachedName=" 2012"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2012]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2013]"
-                      cachedDataType="r8"
-                      cachedName=" 2013"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2013]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2014]"
-                      cachedDataType="r8"
-                      cachedName=" 2014"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2014]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2015]"
-                      cachedDataType="r8"
-                      cachedName=" 2015"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2015]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input].Columns[ 2016]"
-                      cachedDataType="r8"
-                      cachedName=" 2016"
-                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2016]" />
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[DESCRIPCION]" />
                   </inputColumns>
                   <externalMetadataColumns />
                 </input>
@@ -209,6 +105,46 @@
                   name="Data Conversion Output"
                   synchronousInputId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input]">
                   <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Año]"
+                      dataType="i8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Año]"
+                      name="Copia de Año"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[Año]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de CIF]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de CIF]"
+                      name="Copia de CIF"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de PAIS]"
                       codePage="1252"
@@ -224,7 +160,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[PAIS]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[PAIS]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -233,7 +169,7 @@
                     </outputColumn>
                     <outputColumn
                       refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de CODIGO ARANCELARIO]"
-                      dataType="ui8"
+                      dataType="i8"
                       errorOrTruncationOperation="Conversion"
                       errorRowDisposition="FailComponent"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de CODIGO ARANCELARIO]"
@@ -244,7 +180,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[CODIGO ARANCELARIO]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CODIGO ARANCELARIO]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -266,467 +202,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[DESCRIPCION]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1994]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1994]"
-                      name="Copia de  1994"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1994]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1995]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1995]"
-                      name="Copia de  1995"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1995]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1996]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1996]"
-                      name="Copia de  1996"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1996]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1997]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1997]"
-                      name="Copia de  1997"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1997]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1998]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1998]"
-                      name="Copia de  1998"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1998]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1999]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  1999]"
-                      name="Copia de  1999"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1999]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2000]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2000]"
-                      name="Copia de  2000"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2000]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2001]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2001]"
-                      name="Copia de  2001"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2001]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2002]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2002]"
-                      name="Copia de  2002"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2002]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2003]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2003]"
-                      name="Copia de  2003"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2003]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2004]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2004]"
-                      name="Copia de  2004"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2004]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2005]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2005]"
-                      name="Copia de  2005"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2005]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2006]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2006]"
-                      name="Copia de  2006"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2006]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2007]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2007]"
-                      name="Copia de  2007"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2007]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2008]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2008]"
-                      name="Copia de  2008"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2008]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2009]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2009]"
-                      name="Copia de  2009"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2009]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2010]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2010]"
-                      name="Copia de  2010"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2010]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2011]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2011]"
-                      name="Copia de  2011"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2011]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2012]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2012]"
-                      name="Copia de  2012"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2012]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2013]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2013]"
-                      name="Copia de  2013"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2013]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2014]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2014]"
-                      name="Copia de  2014"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2014]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2015]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2015]"
-                      name="Copia de  2015"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2015]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2016]"
-                      dataType="cy"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de  2016]"
-                      name="Copia de  2016"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2016]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[DESCRIPCION]}</property>
                         <property
                           dataType="System.Boolean"
                           description="Indicates whether the column uses the faster, locale-neutral parsing routines."
@@ -761,60 +237,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Derived Column"
-              componentClassID="Microsoft.DerivedColumn"
-              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-              name="Derived Column"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]"
-                  description="Input to the Derived Column Transformation"
-                  name="Derived Column Input">
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]"
-                  description="Default Output of the Derived Column Transformation"
-                  exclusionGroup="1"
-                  name="Derived Column Output"
-                  synchronousInputId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output]"
-                  description="Error Output of the Derived Column Transformation"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Derived Column Error Output"
-                  synchronousInputId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data Flow Task\Fechas"
+              refId="Package\Data Flow Task\Fecha"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Fechas"
+              name="Fecha"
               usesDispositions="true"
               version="4">
               <properties>
@@ -859,7 +286,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions"></property>
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -867,7 +294,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Fechas.Connections[OleDbConnection]"
+                  refId="Package\Data Flow Task\Fecha.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   description="The OLE DB runtime connection used to access the database."
@@ -875,42 +302,46 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Fechas.Inputs[OLE DB Destination Input]"
+                  refId="Package\Data Flow Task\Fecha.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Fecha.Inputs[OLE DB Destination Input].Columns[Copia de Año]"
+                      cachedDataType="i8"
+                      cachedName="Copia de Año"
+                      externalMetadataColumnId="Package\Data Flow Task\Fecha.Inputs[OLE DB Destination Input].ExternalColumns[id_año]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Año]" />
+                  </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Fechas.Inputs[OLE DB Destination Input].ExternalColumns[id_año]"
+                      refId="Package\Data Flow Task\Fecha.Inputs[OLE DB Destination Input].ExternalColumns[id_año]"
                       dataType="i4"
                       name="id_año" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Fechas.Inputs[OLE DB Destination Input].ExternalColumns[año]"
-                      dataType="dbDate"
-                      name="año" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Fechas.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Data Flow Task\Fecha.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\Fechas.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Data Flow Task\Fecha.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Fechas.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Fecha.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Fechas.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Fecha.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Fechas.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Fecha.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Fechas.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Fecha.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1528,11 +959,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Paises"
+              refId="Package\Data Flow Task\Pais"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Paises"
+              name="Pais"
               usesDispositions="true"
               version="4">
               <properties>
@@ -1585,7 +1016,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Paises.Connections[OleDbConnection]"
+                  refId="Package\Data Flow Task\Pais.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   description="The OLE DB runtime connection used to access the database."
@@ -1593,54 +1024,50 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Paises.Inputs[OLE DB Destination Input]"
+                  refId="Package\Data Flow Task\Pais.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Paises.Inputs[OLE DB Destination Input].Columns[Copia de PAIS]"
+                      refId="Package\Data Flow Task\Pais.Inputs[OLE DB Destination Input].Columns[Copia de PAIS]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="30"
                       cachedName="Copia de PAIS"
-                      externalMetadataColumnId="Package\Data Flow Task\Paises.Inputs[OLE DB Destination Input].ExternalColumns[nombre]"
+                      externalMetadataColumnId="Package\Data Flow Task\Pais.Inputs[OLE DB Destination Input].ExternalColumns[id_pais]"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de PAIS]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Paises.Inputs[OLE DB Destination Input].ExternalColumns[id_pais]"
-                      dataType="i4"
-                      name="id_pais" />
-                    <externalMetadataColumn
-                      refId="Package\Data Flow Task\Paises.Inputs[OLE DB Destination Input].ExternalColumns[nombre]"
+                      refId="Package\Data Flow Task\Pais.Inputs[OLE DB Destination Input].ExternalColumns[id_pais]"
                       codePage="1252"
                       dataType="str"
                       length="30"
-                      name="nombre" />
+                      name="id_pais" />
                   </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Paises.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Data Flow Task\Pais.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\Paises.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Data Flow Task\Pais.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Paises.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Pais.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Paises.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Pais.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Paises.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Pais.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Paises.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Pais.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1649,11 +1076,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Productos"
+              refId="Package\Data Flow Task\Producto"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Productos"
+              name="Producto"
               usesDispositions="true"
               version="4">
               <properties>
@@ -1686,7 +1113,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">3</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -1698,7 +1125,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions"></property>
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -1706,7 +1133,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Productos.Connections[OleDbConnection]"
+                  refId="Package\Data Flow Task\Producto.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   description="The OLE DB runtime connection used to access the database."
@@ -1714,35 +1141,35 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input]"
+                  refId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input].Columns[Copia de DESCRIPCION]"
+                      refId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input].Columns[Copia de CODIGO ARANCELARIO]"
+                      cachedDataType="i8"
+                      cachedName="Copia de CODIGO ARANCELARIO"
+                      externalMetadataColumnId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input].ExternalColumns[id_arancelario]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de CODIGO ARANCELARIO]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input].Columns[Copia de DESCRIPCION]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="1000"
                       cachedName="Copia de DESCRIPCION"
-                      externalMetadataColumnId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input].ExternalColumns[descripcion]"
+                      externalMetadataColumnId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input].ExternalColumns[descripcion]"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de DESCRIPCION]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input].Columns[Copia de CODIGO ARANCELARIO]"
-                      cachedDataType="ui8"
-                      cachedName="Copia de CODIGO ARANCELARIO"
-                      externalMetadataColumnId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input].ExternalColumns[id_arancelario]"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de CODIGO ARANCELARIO]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input].ExternalColumns[id_arancelario]"
+                      refId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input].ExternalColumns[id_arancelario]"
                       dataType="i4"
                       name="id_arancelario" />
                     <externalMetadataColumn
-                      refId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input].ExternalColumns[descripcion]"
+                      refId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input].ExternalColumns[descripcion]"
                       codePage="1252"
                       dataType="str"
                       length="1000"
@@ -1752,24 +1179,585 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Productos.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Data Flow Task\Producto.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Productos.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Producto.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Productos.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Producto.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Productos.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Producto.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Productos.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Producto.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Data Flow Task\Unpivot"
+              componentClassID="Microsoft.UnPivot"
+              contactInfo="Unpivot;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Expands an un-normalized data flow into a more normalized version. Values from multiple columns of a single record expand to multiple records in a single column. For example, expand a table that lists athletic scores with a column for each game to more records and a single score column."
+              name="Unpivot">
+              <inputs>
+                <input
+                  refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input]"
+                  hasSideEffects="true"
+                  name="Unpivot Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 1994]"
+                      cachedDataType="r8"
+                      cachedName=" 1994"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1994]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 1994</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 1995]"
+                      cachedDataType="r8"
+                      cachedName=" 1995"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1995]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 1995</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 1996]"
+                      cachedDataType="r8"
+                      cachedName=" 1996"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1996]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 1996</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 1997]"
+                      cachedDataType="r8"
+                      cachedName=" 1997"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1997]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 1997</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 1998]"
+                      cachedDataType="r8"
+                      cachedName=" 1998"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1998]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 1998</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 1999]"
+                      cachedDataType="r8"
+                      cachedName=" 1999"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 1999]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 1999</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2000]"
+                      cachedDataType="r8"
+                      cachedName=" 2000"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2000]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2000</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2001]"
+                      cachedDataType="r8"
+                      cachedName=" 2001"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2001]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2001</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2006]"
+                      cachedDataType="r8"
+                      cachedName=" 2006"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2006]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2006</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2007]"
+                      cachedDataType="r8"
+                      cachedName=" 2007"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2007]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2007</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2008]"
+                      cachedDataType="r8"
+                      cachedName=" 2008"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2008]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2008</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2002]"
+                      cachedDataType="r8"
+                      cachedName=" 2002"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2002]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2002</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2003]"
+                      cachedDataType="r8"
+                      cachedName=" 2003"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2003]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2003</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2004]"
+                      cachedDataType="r8"
+                      cachedName=" 2004"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2004]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2004</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2005]"
+                      cachedDataType="r8"
+                      cachedName=" 2005"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2005]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2005</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2009]"
+                      cachedDataType="r8"
+                      cachedName=" 2009"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2009]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2009</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2010]"
+                      cachedDataType="r8"
+                      cachedName=" 2010"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2010]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2010</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2011]"
+                      cachedDataType="r8"
+                      cachedName=" 2011"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2011]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2011</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2012]"
+                      cachedDataType="r8"
+                      cachedName=" 2012"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2012]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2012</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2013]"
+                      cachedDataType="r8"
+                      cachedName=" 2013"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2013]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2013</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2014]"
+                      cachedDataType="r8"
+                      cachedName=" 2014"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2014]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2014</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2015]"
+                      cachedDataType="r8"
+                      cachedName=" 2015"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2015]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2015</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[ 2016]"
+                      cachedDataType="r8"
+                      cachedName=" 2016"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[ 2016]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]}</property>
+                        <property
+                          dataType="System.String"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue"> 2016</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[PAIS]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="PAIS"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[PAIS]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[PAIS]}</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[CODIGO ARANCELARIO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="CODIGO ARANCELARIO"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[CODIGO ARANCELARIO]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CODIGO ARANCELARIO]}</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue" />
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input].Columns[DESCRIPCION]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="DESCRIPCION"
+                      lineageId="Package\Data Flow Task\Origen.Outputs[Excel Source Output].Columns[DESCRIPCION]">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="The lineage ID of the output column that will receive the value from this input column. Or -1 if column's value is not used in output rows."
+                          name="DestinationColumn">#{Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[DESCRIPCION]}</property>
+                        <property
+                          dataType="System.Null"
+                          description="Specifies the value written to the PivotKey column in the output row."
+                          expressionType="Notify"
+                          name="PivotKeyValue" />
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output]"
+                  name="Unpivot Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[Año]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[Año]"
+                      name="Año">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the value in the PivotKeyValue property is written to the column in the new row."
+                          name="PivotKey">true</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]"
+                      dataType="r8"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]"
+                      name="CIF">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the value in the PivotKeyValue property is written to the column in the new row."
+                          name="PivotKey">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[PAIS]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[PAIS]"
+                      name="PAIS">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the value in the PivotKeyValue property is written to the column in the new row."
+                          name="PivotKey">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CODIGO ARANCELARIO]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CODIGO ARANCELARIO]"
+                      name="CODIGO ARANCELARIO">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the value in the PivotKeyValue property is written to the column in the new row."
+                          name="PivotKey">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[DESCRIPCION]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[DESCRIPCION]"
+                      name="DESCRIPCION">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the value in the PivotKeyValue property is written to the column in the new row."
+                          name="PivotKey">false</property>
+                      </properties>
+                    </outputColumn>
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -1791,7 +1779,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset"></property>
+                  name="OpenRowset">[dbo].[FACTS_VENTAS]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -1813,7 +1801,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">0</property>
+                  typeConverter="AccessMode">3</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -1825,7 +1813,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions"></property>
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -1834,6 +1822,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Ventas.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
+                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1844,8 +1834,56 @@
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].Columns[CIF]"
+                      cachedDataType="r8"
+                      cachedName="CIF"
+                      externalMetadataColumnId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].ExternalColumns[cif]"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CIF]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].Columns[Copia de PAIS]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="30"
+                      cachedName="Copia de PAIS"
+                      externalMetadataColumnId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].ExternalColumns[id_pais]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de PAIS]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].Columns[CODIGO ARANCELARIO]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="CODIGO ARANCELARIO"
+                      externalMetadataColumnId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].ExternalColumns[id_arancelario]"
+                      lineageId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output].Columns[CODIGO ARANCELARIO]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].Columns[Copia de Año]"
+                      cachedDataType="i8"
+                      cachedName="Copia de Año"
+                      externalMetadataColumnId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].ExternalColumns[id_año]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Año]" />
+                  </inputColumns>
                   <externalMetadataColumns
-                    isUsed="True" />
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].ExternalColumns[id_pais]"
+                      codePage="1252"
+                      dataType="str"
+                      length="30"
+                      name="id_pais" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].ExternalColumns[id_arancelario]"
+                      dataType="i4"
+                      name="id_arancelario" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].ExternalColumns[id_año]"
+                      dataType="i4"
+                      name="id_año" />
+                    <externalMetadataColumn
+                      refId="Package\Data Flow Task\Ventas.Inputs[OLE DB Destination Input].ExternalColumns[cif]"
+                      dataType="cy"
+                      name="cif" />
+                  </externalMetadataColumns>
                 </input>
               </inputs>
               <outputs>
@@ -1877,27 +1915,22 @@
           <paths>
             <path
               refId="Package\Data Flow Task.Paths[Data Conversion Output]"
-              endId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]"
+              endId="Package\Data Flow Task\Multicast.Inputs[Multicast Input 1]"
               name="Data Conversion Output"
               startId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output]" />
             <path
-              refId="Package\Data Flow Task.Paths[Derived Column Output]"
-              endId="Package\Data Flow Task\Multicast.Inputs[Multicast Input 1]"
-              name="Derived Column Output"
-              startId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]" />
-            <path
               refId="Package\Data Flow Task.Paths[Excel Source Output]"
-              endId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input]"
+              endId="Package\Data Flow Task\Unpivot.Inputs[Unpivot Input]"
               name="Excel Source Output"
               startId="Package\Data Flow Task\Origen.Outputs[Excel Source Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Multicast Output 1]"
-              endId="Package\Data Flow Task\Productos.Inputs[OLE DB Destination Input]"
+              endId="Package\Data Flow Task\Fecha.Inputs[OLE DB Destination Input]"
               name="Multicast Output 1"
               startId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 1]" />
             <path
               refId="Package\Data Flow Task.Paths[Multicast Output 2]"
-              endId="Package\Data Flow Task\Fechas.Inputs[OLE DB Destination Input]"
+              endId="Package\Data Flow Task\Producto.Inputs[OLE DB Destination Input]"
               name="Multicast Output 2"
               startId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 2]" />
             <path
@@ -1907,9 +1940,14 @@
               startId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 3]" />
             <path
               refId="Package\Data Flow Task.Paths[Multicast Output 4]"
-              endId="Package\Data Flow Task\Paises.Inputs[OLE DB Destination Input]"
+              endId="Package\Data Flow Task\Pais.Inputs[OLE DB Destination Input]"
               name="Multicast Output 4"
               startId="Package\Data Flow Task\Multicast.Outputs[Multicast Output 4]" />
+            <path
+              refId="Package\Data Flow Task.Paths[Unpivot Output]"
+              endId="Package\Data Flow Task\Data Conversion.Inputs[Data Conversion Input]"
+              name="Unpivot Output"
+              startId="Package\Data Flow Task\Unpivot.Outputs[Unpivot Output]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1942,29 +1980,25 @@
         <NodeLayout
           Size="110,42"
           Id="Package\Data Flow Task\Origen"
-          TopLeft="434,28" />
+          TopLeft="440.25,28" />
         <NodeLayout
-          Size="125,42"
-          Id="Package\Data Flow Task\Productos"
-          TopLeft="164,254" />
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Data Flow Task\Data Conversion"
-          TopLeft="415,103" />
+          Size="115,42"
+          Id="Package\Data Flow Task\Unpivot"
+          TopLeft="437.5,112.5" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Excel Source Output]"
-          TopLeft="491,70">
+          TopLeft="495.125,70">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,33"
+              EndConnector="0,42.5"
               Start="0,0"
-              End="0,25.5">
+              End="0,35">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.5" />
+                    End="0,35" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1974,35 +2008,99 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
-          Size="120,42"
-          Id="Package\Data Flow Task\Multicast"
-          TopLeft="430,256" />
-        <NodeLayout
-          Size="111,42"
-          Id="Package\Data Flow Task\Fechas"
-          TopLeft="319,357" />
-        <NodeLayout
-          Size="111,42"
-          Id="Package\Data Flow Task\Ventas"
-          TopLeft="547,361" />
-        <NodeLayout
-          Size="108,42"
-          Id="Package\Data Flow Task\Paises"
-          TopLeft="781,261" />
+          Size="156,42"
+          Id="Package\Data Flow Task\Data Conversion"
+          TopLeft="421.25,197.5" />
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Multicast Output 1]"
-          TopLeft="430,276">
+          Id="Package\Data Flow Task.Paths[Unpivot Output]"
+          TopLeft="497.125,154.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-141,0"
+              EndConnector="0,43"
               Start="0,0"
-              End="-133.5,0">
+              End="0,35.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-133.5,0" />
+                    End="0,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="107,42"
+          Id="Package\Data Flow Task\Fecha"
+          TopLeft="30,346.25" />
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Data Flow Task\Producto"
+          TopLeft="280,370" />
+        <NodeLayout
+          Size="111,42"
+          Id="Package\Data Flow Task\Ventas"
+          TopLeft="568.75,373.75" />
+        <NodeLayout
+          Size="98,42"
+          Id="Package\Data Flow Task\Pais"
+          TopLeft="817.5,343.75" />
+        <NodeLayout
+          Size="120,42"
+          Id="Package\Data Flow Task\Multicast"
+          TopLeft="438.75,277.5" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Data Conversion Output]"
+          TopLeft="499,239.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Multicast Output 1]"
+          TopLeft="465.15,319.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-381.65,26.75"
+              Start="0,0"
+              End="-381.65,19.25">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,4.17361111111111" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,4.17361111111111"
+                    Point2="0,8.17361111111111"
+                    Point3="-4,8.17361111111111" />
+                  <mssgle:LineSegment
+                    End="-377.65,8.17361111111111" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-377.65,8.17361111111111"
+                    Point2="-381.65,8.17361111111111"
+                    Point3="-381.65,12.1736111111111" />
+                  <mssgle:LineSegment
+                    End="-381.65,19.25" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2013,30 +2111,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Multicast Output 2]"
-          TopLeft="471.333333333333,298">
+          TopLeft="487.55,319.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-96.8333333333333,59"
+              EndConnector="-147.05,50.5"
               Start="0,0"
-              End="-96.8333333333333,51.5">
+              End="-147.05,43">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,20.0657894736842" />
+                    End="0,18.6507352941176" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,20.0657894736842"
-                    Point2="0,24.0657894736842"
-                    Point3="-4,24.0657894736842" />
+                    Point1="0,18.6507352941176"
+                    Point2="0,22.6507352941176"
+                    Point3="-4,22.6507352941176" />
                   <mssgle:LineSegment
-                    End="-92.8333333333333,24.0657894736842" />
+                    End="-143.05,22.6507352941176" />
                   <mssgle:CubicBezierSegment
-                    Point1="-92.8333333333333,24.0657894736842"
-                    Point2="-96.8333333333333,24.0657894736842"
-                    Point3="-96.8333333333333,28.0657894736842" />
+                    Point1="-143.05,22.6507352941176"
+                    Point2="-147.05,22.6507352941176"
+                    Point3="-147.05,26.6507352941176" />
                   <mssgle:LineSegment
-                    End="-96.8333333333333,51.5" />
+                    End="-147.05,43" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2047,30 +2145,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Multicast Output 3]"
-          TopLeft="508.666666666667,298">
+          TopLeft="509.95,319.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="93.8333333333334,63"
+              EndConnector="114.3,54.25"
               Start="0,0"
-              End="93.8333333333334,55.5">
+              End="114.3,46.75">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.6973684210527" />
+                    End="0,20.3327205882353" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,21.6973684210527"
-                    Point2="0,25.6973684210527"
-                    Point3="4,25.6973684210527" />
+                    Point1="0,20.3327205882353"
+                    Point2="0,24.3327205882353"
+                    Point3="4,24.3327205882353" />
                   <mssgle:LineSegment
-                    End="89.8333333333334,25.6973684210527" />
+                    End="110.3,24.3327205882353" />
                   <mssgle:CubicBezierSegment
-                    Point1="89.8333333333334,25.6973684210527"
-                    Point2="93.8333333333334,25.6973684210527"
-                    Point3="93.8333333333334,29.6973684210527" />
+                    Point1="110.3,24.3327205882353"
+                    Point2="114.3,24.3327205882353"
+                    Point3="114.3,28.3327205882353" />
                   <mssgle:LineSegment
-                    End="93.8333333333334,55.5" />
+                    End="114.3,46.75" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2081,66 +2179,30 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Multicast Output 4]"
-          TopLeft="550,279.5">
+          TopLeft="532.35,319.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="231,0"
+              EndConnector="334.15,24.25"
               Start="0,0"
-              End="223.5,0">
+              End="334.15,16.75">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="223.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="154,42"
-          Id="Package\Data Flow Task\Derived Column"
-          TopLeft="414,172" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Data Conversion Output]"
-          TopLeft="492,145">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,27"
-              Start="0,0"
-              End="0,19.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
+                    End="0,3.40972222222222" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,3.40972222222222"
+                    Point2="0,7.40972222222222"
+                    Point3="4,7.40972222222222" />
                   <mssgle:LineSegment
-                    End="0,19.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output]"
-          TopLeft="490.5,214">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,42"
-              Start="0,0"
-              End="0,34.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
+                    End="330.15,7.40972222222222" />
+                  <mssgle:CubicBezierSegment
+                    Point1="330.15,7.40972222222222"
+                    Point2="334.15,7.40972222222222"
+                    Point3="334.15,11.4097222222222" />
                   <mssgle:LineSegment
-                    End="0,34.5" />
+                    End="334.15,16.75" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2166,7 +2228,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Productos">
+    design-time-name="Package\Data Flow Task\Fecha">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2179,7 +2241,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Fechas">
+    design-time-name="Package\Data Flow Task\Producto">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2192,7 +2254,20 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Paises">
+    design-time-name="Package\Data Flow Task\Ventas">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Pais">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
