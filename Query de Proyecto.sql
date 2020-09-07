@@ -80,3 +80,8 @@ DELETE FROM DIM_PRODUCTOS
 --INSERT INTO FACTS_VENTAS VALUES(1,1,3,1002.45)
 
 --select*from FACTS_VENTAS
+
+select * from FACTS_VENTAS
+where id_arancelario=  1512210000 and FACTS_VENTAS.id_pais='Argentina'
+order by FACTS_VENTAS.id_año
+
