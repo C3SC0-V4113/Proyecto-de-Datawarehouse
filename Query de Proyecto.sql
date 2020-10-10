@@ -8,8 +8,7 @@ GO
 --CREACIÓN DE TABLAS
 CREATE TABLE DIM_PAISES
 (
-id_pais int not null,
-nombre varchar(30)
+id_pais varchar(30) not null,
 constraint id_pais primary key(id_pais)
 )
 CREATE TABLE DIM_PRODUCTOS
@@ -21,12 +20,11 @@ constraint id_arancelario primary key(id_arancelario)
 CREATE TABLE DIM_FECHAS
 (
 id_año int not null,
-año date
 constraint id_año primary key(id_año)
 )
 CREATE TABLE FACTS_VENTAS
 (
-id_pais int not null,
+id_pais varchar(30) not null,
 id_arancelario int not null,
 id_año int not null,
 cif money
@@ -53,6 +51,16 @@ ADD CONSTRAINT fk_id_pais
 FOREIGN KEY(id_pais)
 REFERENCES DIM_PAISES(id_pais)
 
+select*from FACTS_VENTAS
+select*from DIM_FECHAS
+select*from DIM_PAISES
+select*from DIM_PRODUCTOS
+
+DELETE FROM FACTS_VENTAS
+DELETE FROM DIM_FECHAS
+DELETE FROM DIM_PAISES
+DELETE FROM DIM_PRODUCTOS
+
 ----
 --INSERT INTO DIM_PAISES VALUES(1,'Canada')
 ----
@@ -72,3 +80,8 @@ REFERENCES DIM_PAISES(id_pais)
 --INSERT INTO FACTS_VENTAS VALUES(1,1,3,1002.45)
 
 --select*from FACTS_VENTAS
+
+select * from FACTS_VENTAS
+where id_arancelario=  1512210000 and FACTS_VENTAS.id_pais='Argentina'
+order by FACTS_VENTAS.id_año
+
