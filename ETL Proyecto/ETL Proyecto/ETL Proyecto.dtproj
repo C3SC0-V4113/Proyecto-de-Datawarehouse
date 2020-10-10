@@ -26,7 +26,11 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LAPTOP-SEV4FTSO</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
+<<<<<<< Updated upstream
           <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8KvKOLOr5kemw/5Aqym9cwAAAAACAAAAAAAQZgAAAAEAACAAAABBnFl8UWpU71Yn9BJsqT5xDuyWJPEWdPwQGcH1krHLxgAAAAAOgAAAAAIAACAAAAA6hfWdfy78rFMcXFRPnqJIpRfSXkZnm85pfjfRhcJDx5AAAACSJath9V/8S1I2/t1sBg+B+dQic4VeZdiBeEh3y20ub85GMoUSy+LICkPR4GhSINRLJX65LFD6qFBhN7Zmy5RxUfDcCIPmlwnh+TyA8iJjhCc7AYWPQjRG94Zombtneibsk5oCIADr7lbQuI3C6abeRY7oAZWcUA/WMBytsNj+0cBPKQSLDVevCkR/L5vuzDFAAAAAf4TEJdkUesY5LyRc42PTeEuulyt/5QUwIXKhXVzw8N1/rweuqg12eLsFn4EKU7qgYxv93Pqd/k9vj7SkC4is1w==</SSIS:Property>
+=======
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKTKp4+TtgU2mPG67TOxsvQAAAAACAAAAAAAQZgAAAAEAACAAAAC4AiVQWxmELdTFwSMeMyEL0M/nzSb2xj6J7YCl8LHb7gAAAAAOgAAAAAIAACAAAADqlZSRHdlxZB5k2RxTGHSSMhgIBAr0gYan3BKFPDV6HpAAAAC5Ea1soRJO8kXJprnhEbfG1AaSXJcLF3ORvClklVVeX1wrXE3+tO8PcrgSc6y0BGpB40Gq6kf2CQc9HQx7XRJ3mDIdEkxxvKBoG8ZJJx50Zak4lKRi6e/cVipTyOFKNVOkWvrtf+nxl3g7pJIGDjxlVEN0IoNYkXpiT0sCEsZUokVjckrPXT04wGwykExDULpAAAAAOk6Q+lUwzcy+0Wdg9WN++O85Epv5M2zrn5DXnnxgqMBgiWOqbi36EDzH6HqL2USdlH6lBm+n38RQ2QYBmrnycQ==</SSIS:Property>
+>>>>>>> Stashed changes
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +46,17 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+<<<<<<< Updated upstream
                 <SSIS:Property SSIS:Name="VersionBuild">20</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{D32ED799-2799-468F-9C3F-DF25BE56D419}</SSIS:Property>
+=======
+                <SSIS:Property SSIS:Name="VersionBuild">34</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{C6B68F6E-5A7A-4752-B779-6F49861A962F}</SSIS:Property>
+>>>>>>> Stashed changes
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -63,7 +74,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< Updated upstream
                     <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls;Extended Properties="EXCEL 8.0;HDR=YES";</SSIS:Property>
+=======
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Adilson\Documents\GitHub\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls;Extended Properties="Excel 8.0;HDR=YES";</SSIS:Property>
+>>>>>>> Stashed changes
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -78,7 +93,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< Updated upstream
                     <SSIS:Property SSIS:Name="Value">F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls</SSIS:Property>
+=======
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Adilson\Documents\GitHub\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls</SSIS:Property>
+>>>>>>> Stashed changes
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -151,7 +170,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< Updated upstream
                     <SSIS:Property SSIS:Name="Value">F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls</SSIS:Property>
+=======
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Adilson\Documents\GitHub\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls</SSIS:Property>
+>>>>>>> Stashed changes
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -169,6 +192,24 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< Updated upstream
+=======
+                <SSIS:Parameter SSIS:Name="CM.Administrador de conexiones con Excel 1.ConnectByProxy">
+                  <SSIS:Properties>
+                    <SSIS:Property SSIS:Name="ID">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="CreationName">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="Description">
+                    </SSIS:Property>
+                    <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">false</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+>>>>>>> Stashed changes
                 <SSIS:Parameter SSIS:Name="CM.Administrador de conexiones con Excel 1.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
@@ -180,7 +221,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< Updated upstream
                     <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\Destino Paises.xls;Extended Properties="Excel 8.0;HDR=YES";</SSIS:Property>
+=======
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Adilson\Documents\GitHub\Proyecto-de-Datawarehouse\Archivos de Excel\Destino Paises.xls;Extended Properties="Excel 8.0;HDR=YES";</SSIS:Property>
+>>>>>>> Stashed changes
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -195,7 +240,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< Updated upstream
                     <SSIS:Property SSIS:Name="Value">F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\Destino Paises.xls</SSIS:Property>
+=======
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Adilson\Documents\GitHub\Proyecto-de-Datawarehouse\Archivos de Excel\Destino Paises.xls</SSIS:Property>
+>>>>>>> Stashed changes
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -268,7 +317,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< Updated upstream
                     <SSIS:Property SSIS:Name="Value">F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\Destino Paises.xls</SSIS:Property>
+=======
+                    <SSIS:Property SSIS:Name="Value">C:\Users\Adilson\Documents\GitHub\Proyecto-de-Datawarehouse\Archivos de Excel\Destino Paises.xls</SSIS:Property>
+>>>>>>> Stashed changes
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -286,7 +339,11 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< Updated upstream
                 <SSIS:Parameter SSIS:Name="CM.Fecha.AlwaysCheckForRowDelimiters">
+=======
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-G8U2RB1.ProyectoDMD.ConnectByProxy">
+>>>>>>> Stashed changes
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -301,7 +358,11 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< Updated upstream
                 <SSIS:Parameter SSIS:Name="CM.Fecha.CodePage">
+=======
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-G8U2RB1.ProyectoDMD.ConnectionString">
+>>>>>>> Stashed changes
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -312,11 +373,19 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< Updated upstream
                     <SSIS:Property SSIS:Name="Value">1252</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.Fecha.ColumnNamesInFirstDataRow">
+=======
+                    <SSIS:Property SSIS:Name="Value">Data Source=DESKTOP-G8U2RB1;Initial Catalog=ProyectoDMD;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-G8U2RB1.ProyectoDMD.ConnectUsingManagedIdentity">
+>>>>>>> Stashed changes
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -331,7 +400,11 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< Updated upstream
                 <SSIS:Parameter SSIS:Name="CM.Fecha.ConnectByProxy">
+=======
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-G8U2RB1.ProyectoDMD.InitialCatalog">
+>>>>>>> Stashed changes
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -346,7 +419,11 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< Updated upstream
                 <SSIS:Parameter SSIS:Name="CM.Fecha.ConnectionString">
+=======
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-G8U2RB1.ProyectoDMD.Password">
+>>>>>>> Stashed changes
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -361,7 +438,11 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< Updated upstream
                 <SSIS:Parameter SSIS:Name="CM.Fecha.DataRowsToSkip">
+=======
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-G8U2RB1.ProyectoDMD.RetainSameConnection">
+>>>>>>> Stashed changes
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -376,7 +457,11 @@
                     <SSIS:Property SSIS:Name="DataType">9</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
+<<<<<<< Updated upstream
                 <SSIS:Parameter SSIS:Name="CM.Fecha.Format">
+=======
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-G8U2RB1.ProyectoDMD.ServerName">
+>>>>>>> Stashed changes
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -387,11 +472,19 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+<<<<<<< Updated upstream
                     <SSIS:Property SSIS:Name="Value">Delimited</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
                 <SSIS:Parameter SSIS:Name="CM.Fecha.HeaderRowDelimiter">
+=======
+                    <SSIS:Property SSIS:Name="Value">DESKTOP-G8U2RB1</SSIS:Property>
+                    <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
+                  </SSIS:Properties>
+                </SSIS:Parameter>
+                <SSIS:Parameter SSIS:Name="CM.DESKTOP-G8U2RB1.ProyectoDMD.UserName">
+>>>>>>> Stashed changes
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>

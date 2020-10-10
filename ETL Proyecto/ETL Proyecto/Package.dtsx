@@ -11,29 +11,60 @@
   DTS:LocaleID="22538"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
+<<<<<<< Updated upstream
   DTS:VersionBuild="21"
   DTS:VersionGUID="{5B16F6BF-6DB6-482F-A8AB-B7FC0D14EC30}">
+=======
+  DTS:VersionBuild="34"
+  DTS:VersionGUID="{C6B68F6E-5A7A-4752-B779-6F49861A962F}">
+>>>>>>> Stashed changes
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel]"
       DTS:CreationName="EXCEL"
+<<<<<<< Updated upstream
       DTS:DTSID="{2164066D-7BD5-4B61-AB90-88555CE5AA11}"
       DTS:ObjectName="Administrador de conexiones con Excel">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
+=======
+      DTS:DTSID="{88150D9F-9C7D-44AA-B2CB-E4B8CDAB6CD6}"
+      DTS:ObjectName="Administrador de conexiones con Excel">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Adilson\Documents\GitHub\Proyecto-de-Datawarehouse\Archivos de Excel\grasas y aceites.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+>>>>>>> Stashed changes
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel 1]"
       DTS:CreationName="EXCEL"
+<<<<<<< Updated upstream
       DTS:DTSID="{DF80C050-4AA0-4EA5-9D2B-15B072A8186D}"
       DTS:ObjectName="Administrador de conexiones con Excel 1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\DOCUMENTOS CUQUIS\UNIVERSIDAD\CICLO 04\Dataware Y Mineria de datos\Proyecto-de-Datawarehouse\Archivos de Excel\Destino Paises.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+=======
+      DTS:DTSID="{D71EB8E7-1E44-4270-94FA-D390FE331D04}"
+      DTS:ObjectName="Administrador de conexiones con Excel 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Adilson\Documents\GitHub\Proyecto-de-Datawarehouse\Archivos de Excel\Destino Paises.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{E8860E2F-A388-49C7-826C-83A067F1AEF7}"
+      DTS:ObjectName="DESKTOP-G8U2RB1.ProyectoDMD">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=DESKTOP-G8U2RB1;Initial Catalog=ProyectoDMD;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+>>>>>>> Stashed changes
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -874,7 +905,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">3</property>
+                  typeConverter="AccessMode">0</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -895,8 +926,13 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Fechas.Connections[OleDbConnection]"
+<<<<<<< Updated upstream
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
+=======
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+>>>>>>> Stashed changes
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1610,8 +1646,13 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Pais.Connections[OleDbConnection]"
+<<<<<<< Updated upstream
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
+=======
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+>>>>>>> Stashed changes
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1706,7 +1747,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">3</property>
+                  typeConverter="AccessMode">0</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -1727,8 +1768,13 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Productos.Connections[OleDbConnection]"
+<<<<<<< Updated upstream
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
+=======
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+>>>>>>> Stashed changes
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -3411,6 +3457,14 @@
               </inputs>
               <outputs>
                 <output
+                  refId="Package\Data Flow Task 1\Multicast.Outputs[Multicast Output 4]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Multicast Output 4"
+                  synchronousInputId="Package\Data Flow Task 1\Multicast.Inputs[Multicast Input 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
                   refId="Package\Data Flow Task 1\Multicast.Outputs[Multicast Output 1]"
                   deleteOutputOnPathDetached="true"
                   name="Multicast Output 1"
@@ -3428,14 +3482,6 @@
                   refId="Package\Data Flow Task 1\Multicast.Outputs[Multicast Output 2]"
                   deleteOutputOnPathDetached="true"
                   name="Multicast Output 2"
-                  synchronousInputId="Package\Data Flow Task 1\Multicast.Inputs[Multicast Input 1]">
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Data Flow Task 1\Multicast.Outputs[Multicast Output 4]"
-                  dangling="true"
-                  deleteOutputOnPathDetached="true"
-                  name="Multicast Output 4"
                   synchronousInputId="Package\Data Flow Task 1\Multicast.Inputs[Multicast Input 1]">
                   <externalMetadataColumns />
                 </output>
@@ -4822,7 +4868,7 @@
                   dataType="System.Int32"
                   description="Specifies the mode used to access the database."
                   name="AccessMode"
-                  typeConverter="AccessMode">3</property>
+                  typeConverter="AccessMode">0</property>
                 <property
                   dataType="System.Boolean"
                   description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
@@ -4843,8 +4889,13 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task 1\Ventas.Connections[OleDbConnection]"
+<<<<<<< Updated upstream
                   connectionManagerID="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
                   connectionManagerRefId="Package.ConnectionManagers[LAPTOP-SEV4FTSO.ProyectoDMD]"
+=======
+                  connectionManagerID="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+                  connectionManagerRefId="Package.ConnectionManagers[DESKTOP-G8U2RB1.ProyectoDMD]"
+>>>>>>> Stashed changes
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -4940,14 +4991,14 @@
               startId="Package\Data Flow Task 1\Aggregate 3.Outputs[Aggregate Output 1]" />
             <path
               refId="Package\Data Flow Task 1.Paths[Aggregate Output 11]"
-              endId="Package\Data Flow Task 1\Sort.Inputs[Sort Input]"
-              name="Aggregate Output 1"
-              startId="Package\Data Flow Task 1\Aggregate.Outputs[Aggregate Output 1]" />
-            <path
-              refId="Package\Data Flow Task 1.Paths[Aggregate Output 12]"
               endId="Package\Data Flow Task 1\Sort 1.Inputs[Sort Input]"
               name="Aggregate Output 1"
               startId="Package\Data Flow Task 1\Aggregate 1.Outputs[Aggregate Output 1]" />
+            <path
+              refId="Package\Data Flow Task 1.Paths[Aggregate Output 12]"
+              endId="Package\Data Flow Task 1\Sort.Inputs[Sort Input]"
+              name="Aggregate Output 1"
+              startId="Package\Data Flow Task 1\Aggregate.Outputs[Aggregate Output 1]" />
             <path
               refId="Package\Data Flow Task 1.Paths[Data Conversion Output]"
               endId="Package\Data Flow Task 1\Multicast.Inputs[Multicast Input 1]"
@@ -4980,14 +5031,14 @@
               startId="Package\Data Flow Task 1\Multicast.Outputs[Multicast Output 3]" />
             <path
               refId="Package\Data Flow Task 1.Paths[Sort Output]"
-              endId="Package\Data Flow Task 1\Excel Destination.Inputs[Excel Destination Input]"
-              name="Sort Output"
-              startId="Package\Data Flow Task 1\Sort.Outputs[Sort Output]" />
-            <path
-              refId="Package\Data Flow Task 1.Paths[Sort Output1]"
               endId="Package\Data Flow Task 1\Excel Destination 1.Inputs[Excel Destination Input]"
               name="Sort Output"
               startId="Package\Data Flow Task 1\Sort 1.Outputs[Sort Output]" />
+            <path
+              refId="Package\Data Flow Task 1.Paths[Sort Output1]"
+              endId="Package\Data Flow Task 1\Excel Destination.Inputs[Excel Destination Input]"
+              name="Sort Output"
+              startId="Package\Data Flow Task 1\Sort.Outputs[Sort Output]" />
             <path
               refId="Package\Data Flow Task 1.Paths[Unpivot Output]"
               endId="Package\Data Flow Task 1\Data Conversion.Inputs[Data Conversion Input]"
@@ -5023,25 +5074,29 @@
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task"
-          TopLeft="286,93" />
+          TopLeft="164,91" />
         <NodeLayout
           Size="160,42"
           Id="Package\Data Flow Task 1"
-          TopLeft="279,167" />
+          TopLeft="152,177" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Restricción]"
+<<<<<<< Updated upstream
           TopLeft="360.25,135">
+=======
+          TopLeft="235.75,133">
+>>>>>>> Stashed changes
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,32"
+              EndConnector="0,44"
               Start="0,0"
-              End="0,24.5">
+              End="0,36.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.5" />
+                    End="0,36.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5059,6 +5114,7 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+<<<<<<< Updated upstream
           Size="125,42"
           Id="Package\Data Flow Task\Productos"
           TopLeft="972.857142857143,198.571428571429" />
@@ -5066,11 +5122,17 @@
           Size="120,42"
           Id="Package\Data Flow Task\Multicast"
           TopLeft="588.892857142857,197.071428571429" />
+=======
+          Size="110,42"
+          Id="Package\Data Flow Task\Origen"
+          TopLeft="21.535714285714,204.142857142857" />
+>>>>>>> Stashed changes
         <NodeLayout
           Size="136,42"
           Id="Package\Data Flow Task\Aggregate 1"
           TopLeft="744.285714285714,201.428571428572" />
         <NodeLayout
+<<<<<<< Updated upstream
           Size="156,42"
           Id="Package\Data Flow Task\Data Conversion"
           TopLeft="389.821428571429,195.5" />
@@ -5078,11 +5140,17 @@
           Size="115,42"
           Id="Package\Data Flow Task\Unpivot"
           TopLeft="236.071428571429,199.642857142857" />
+=======
+          Size="132,42"
+          Id="Package\Data Flow Task\Productos"
+          TopLeft="965.857142857143,198.571428571429" />
+>>>>>>> Stashed changes
         <NodeLayout
           Size="98,42"
           Id="Package\Data Flow Task\Pais"
           TopLeft="991.428571428571,71.4285714285715" />
         <NodeLayout
+<<<<<<< Updated upstream
           Size="110,42"
           Id="Package\Data Flow Task\Origen"
           TopLeft="244.535714285714,105.142857142857" />
@@ -5090,14 +5158,37 @@
           Size="111,42"
           Id="Package\Data Flow Task\Fechas"
           TopLeft="975.714285714286,304.285714285714" />
+=======
+          Size="146,42"
+          Id="Package\Data Flow Task\Aggregate 2"
+          TopLeft="709.428571428571,288.142857142857" />
+>>>>>>> Stashed changes
         <NodeLayout
           Size="136,42"
           Id="Package\Data Flow Task\Aggregate 2"
           TopLeft="741.428571428571,297.142857142857" />
         <NodeLayout
+<<<<<<< Updated upstream
           Size="127,42"
           Id="Package\Data Flow Task\Aggregate"
           TopLeft="744.285714285714,70" />
+=======
+          Size="125,42"
+          Id="Package\Data Flow Task\Unpivot"
+          TopLeft="226.071428571429,199.642857142857" />
+        <NodeLayout
+          Size="130,42"
+          Id="Package\Data Flow Task\Aggregate"
+          TopLeft="688.285714285714,70" />
+        <NodeLayout
+          Size="144,42"
+          Id="Package\Data Flow Task\Aggregate 1"
+          TopLeft="744.285714285714,201.428571428572" />
+        <NodeLayout
+          Size="123,42"
+          Id="Package\Data Flow Task\Multicast"
+          TopLeft="588.892857142857,197.071428571429" />
+>>>>>>> Stashed changes
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Aggregate Output 11]"
           TopLeft="880.285714285714,221">
@@ -5324,46 +5415,7 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Fechas">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\Origen">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Pais">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Productos">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5381,13 +5433,22 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+<<<<<<< Updated upstream
           Size="111,42"
+=======
+          Size="129,42"
+          Id="Package\Data Flow Task 1\Unpivot"
+          TopLeft="272.178571428572,147.285714285714" />
+        <NodeLayout
+          Size="117,42"
+>>>>>>> Stashed changes
           Id="Package\Data Flow Task 1\Ventas"
           TopLeft="845.761904761906,84.9047619047613" />
         <NodeLayout
           Size="136,42"
           Id="Package\Data Flow Task 1\Aggregate 3"
           TopLeft="652.488095238096,82.0079365079367" />
+<<<<<<< Updated upstream
         <NodeLayout
           Size="156,42"
           Id="Package\Data Flow Task 1\Data Conversion"
@@ -5400,6 +5461,56 @@
           Size="110,42"
           Id="Package\Data Flow Task 1\Origen"
           TopLeft="97.5,144.214285714285" />
+=======
+        <EdgeLayout
+          Id="Package\Data Flow Task 1.Paths[Excel Source Output]"
+          TopLeft="207.5,166.749999999999">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="64.678571428572,0"
+              Start="0,0"
+              End="57.178571428572,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="57.178571428572,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task 1.Paths[Aggregate Output 1]"
+          TopLeft="791.488095238096,104.456349206349">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="54.27380952381,0"
+              Start="0,0"
+              End="46.77380952381,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="46.77380952381,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Data Flow Task 1\Data Conversion"
+          TopLeft="443.404761904762,151.238095238095" />
+>>>>>>> Stashed changes
         <EdgeLayout
           Id="Package\Data Flow Task 1.Paths[Unpivot Output]"
           TopLeft="401.178571428572,170.261904761905">
@@ -5422,7 +5533,12 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="128,42"
+          Id="Package\Data Flow Task 1\Multicast"
+          TopLeft="663.75,155" />
         <EdgeLayout
+<<<<<<< Updated upstream
           Id="Package\Data Flow Task 1.Paths[Excel Source Output]"
           TopLeft="207.5,166.75">
           <EdgeLayout.Curve>
@@ -5431,11 +5547,25 @@
               EndConnector="78.6785714285714,0"
               Start="0,0"
               End="71.1785714285714,0">
+=======
+          Id="Package\Data Flow Task 1.Paths[Data Conversion Output]"
+          TopLeft="606.404761904762,174.119047619048">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="57.3452380952381,0"
+              Start="0,0"
+              End="49.8452380952381,0">
+>>>>>>> Stashed changes
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< Updated upstream
                     End="71.1785714285714,0" />
+=======
+                    End="49.8452380952381,0" />
+>>>>>>> Stashed changes
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5445,6 +5575,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+<<<<<<< Updated upstream
           Id="Package\Data Flow Task 1.Paths[Aggregate Output 1]"
           TopLeft="788.488095238096,104.456349206349">
           <EdgeLayout.Curve>
@@ -5453,11 +5584,25 @@
               EndConnector="57.2738095238097,0"
               Start="0,0"
               End="49.7738095238097,0">
+=======
+          Id="Package\Data Flow Task 1.Paths[Multicast Output 1]"
+          TopLeft="724.869047619048,155">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,-30.9920634920633"
+              Start="0,0"
+              End="0,-23.4920634920633">
+>>>>>>> Stashed changes
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< Updated upstream
                     End="49.7738095238097,0" />
+=======
+                    End="0,-23.4920634920633" />
+>>>>>>> Stashed changes
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5467,9 +5612,27 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <NodeLayout
+<<<<<<< Updated upstream
           Size="120,42"
           Id="Package\Data Flow Task 1\Multicast"
           TopLeft="663.75,155" />
+=======
+          Size="144,42"
+          Id="Package\Data Flow Task 1\Aggregate 1"
+          TopLeft="803.75,241.25" />
+        <NodeLayout
+          Size="114,42"
+          Id="Package\Data Flow Task 1\Sort 1"
+          TopLeft="821.25,317.142857142857" />
+        <NodeLayout
+          Size="136,42"
+          Id="Package\Data Flow Task 1\Aggregate"
+          TopLeft="541.25,303.214285714286" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Data Flow Task 1\Data Conversion 1"
+          TopLeft="528.75,233.75" />
+>>>>>>> Stashed changes
         <EdgeLayout
           Id="Package\Data Flow Task 1.Paths[Data Conversion Output]"
           TopLeft="606.404761904762,174.119047619048">
@@ -5492,6 +5655,10 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="106,42"
+          Id="Package\Data Flow Task 1\Sort"
+          TopLeft="560.178571428571,374.285714285714" />
         <EdgeLayout
           Id="Package\Data Flow Task 1.Paths[Multicast Output 1]"
           TopLeft="722.119047619048,155">
@@ -5527,6 +5694,7 @@
           Id="Package\Data Flow Task 1\Data Conversion 1"
           TopLeft="528.75,233.75" />
         <EdgeLayout
+<<<<<<< Updated upstream
           Id="Package\Data Flow Task 1.Paths[Multicast Output 3]"
           TopLeft="723.75,197">
           <EdgeLayout.Curve>
@@ -5589,6 +5757,10 @@
         <EdgeLayout
           Id="Package\Data Flow Task 1.Paths[Multicast Output 2]"
           TopLeft="742.416666666667,197">
+=======
+          Id="Package\Data Flow Task 1.Paths[Data Conversion Output1]"
+          TopLeft="611.75,275.75">
+>>>>>>> Stashed changes
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -5634,6 +5806,7 @@
           TopLeft="821.25,317.142857142857" />
         <EdgeLayout
           Id="Package\Data Flow Task 1.Paths[Aggregate Output 11]"
+<<<<<<< Updated upstream
           TopLeft="606.964285714286,345.214285714286">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -5641,11 +5814,24 @@
               EndConnector="0,29.0714285714286"
               Start="0,0"
               End="0,21.5714285714286">
+=======
+          TopLeft="877,283.25">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33.892857142857"
+              Start="0,0"
+              End="0,26.392857142857">
+>>>>>>> Stashed changes
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< Updated upstream
                     End="0,21.5714285714286" />
+=======
+                    End="0,26.392857142857" />
+>>>>>>> Stashed changes
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5655,6 +5841,7 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+<<<<<<< Updated upstream
           Id="Package\Data Flow Task 1.Paths[Sort Output]"
           TopLeft="610.321428571429,416.285714285714">
           <EdgeLayout.Curve>
@@ -5663,11 +5850,25 @@
               EndConnector="0,35.142857142857"
               Start="0,0"
               End="0,27.642857142857">
+=======
+          Id="Package\Data Flow Task 1.Paths[Aggregate Output 12]"
+          TopLeft="611.214285714286,345.214285714286">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29.071428571428"
+              Start="0,0"
+              End="0,21.571428571428">
+>>>>>>> Stashed changes
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< Updated upstream
                     End="0,27.642857142857" />
+=======
+                    End="0,21.571428571428" />
+>>>>>>> Stashed changes
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5676,7 +5877,12 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="173,42"
+          Id="Package\Data Flow Task 1\Excel Destination 1"
+          TopLeft="791.428571428571,389.821428571429" />
         <EdgeLayout
+<<<<<<< Updated upstream
           Id="Package\Data Flow Task 1.Paths[Aggregate Output 12]"
           TopLeft="873.25,283.25">
           <EdgeLayout.Curve>
@@ -5685,11 +5891,25 @@
               EndConnector="0,33.8928571428572"
               Start="0,0"
               End="0,26.3928571428572">
+=======
+          Id="Package\Data Flow Task 1.Paths[Sort Output]"
+          TopLeft="878.089285714286,359.142857142857">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30.678571428572"
+              Start="0,0"
+              End="0,23.178571428572">
+>>>>>>> Stashed changes
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< Updated upstream
                     End="0,26.3928571428572" />
+=======
+                    End="0,23.178571428572" />
+>>>>>>> Stashed changes
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5698,8 +5918,13 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Data Flow Task 1\Excel Destination"
+          TopLeft="531.964285714286,451.428571428571" />
         <EdgeLayout
           Id="Package\Data Flow Task 1.Paths[Sort Output1]"
+<<<<<<< Updated upstream
           TopLeft="875.339285714286,359.142857142857">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -5707,11 +5932,24 @@
               EndConnector="0,30.6785714285714"
               Start="0,0"
               End="0,23.1785714285714">
+=======
+          TopLeft="612.321428571428,416.285714285714">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35.142857142857"
+              Start="0,0"
+              End="0,27.642857142857">
+>>>>>>> Stashed changes
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
+<<<<<<< Updated upstream
                     End="0,23.1785714285714" />
+=======
+                    End="0,27.642857142857" />
+>>>>>>> Stashed changes
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -5724,7 +5962,24 @@
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
+<<<<<<< Updated upstream
     design-time-name="Package\Data Flow Task 1\Excel Destination">
+=======
+    design-time-name="Package\Data Flow Task 1\Origen">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task 1\Excel Destination 1">
+>>>>>>> Stashed changes
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
