@@ -1,0 +1,134 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0d916498-55aa-40e1-beee-726dcd2daf58" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Proyecto DMD</ID>
+  <Name>Proyecto DMD</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Proyecto DMD</DataSourceID>
+  <Schema>
+    <xs:schema id="Proyecto_x0020_DMD" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Proyecto_x0020_DMD" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="e1189c70-7eec-4653-ad10-d4d8af970ada">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DIM_FECHAS" msprop:design-time-name="afb357a7-68df-49e9-ab73-1ebe182dc54f" msprop:DbTableName="DIM_FECHAS" msprop:FriendlyName="DIM_FECHAS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_año" msprop:design-time-name="9a27b853-ce28-408a-baac-a45c66384940" msprop:DbColumnName="id_año" msprop:FriendlyName="id_año" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_PAISES" msprop:design-time-name="083b4d49-6abd-49ce-b59b-781f7fbea5e5" msprop:DbTableName="DIM_PAISES" msprop:FriendlyName="DIM_PAISES" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_pais" msprop:design-time-name="277a23de-964c-4226-9beb-044e36b077d7" msprop:DbColumnName="id_pais" msprop:FriendlyName="id_pais">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DIM_PRODUCTOS" msprop:design-time-name="26a6f651-5747-4908-8f44-0510608b4071" msprop:DbTableName="DIM_PRODUCTOS" msprop:FriendlyName="DIM_PRODUCTOS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_arancelario" msprop:design-time-name="9579de64-efdf-4446-b692-2aac2fad7ea5" msprop:DbColumnName="id_arancelario" msprop:FriendlyName="id_arancelario" type="xs:int" />
+                  <xs:element name="descripcion" msprop:design-time-name="2a9776f1-de84-464c-934e-bd1c0eaef20d" msprop:DbColumnName="descripcion" msprop:FriendlyName="descripcion" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1000" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FACTS_VENTAS" msprop:design-time-name="af4085f0-b816-4d2c-ac2d-0803bd777a1d" msprop:DbTableName="FACTS_VENTAS" msprop:FriendlyName="FACTS_VENTAS" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_pais" msprop:design-time-name="2cb4a4ab-80f1-4ad9-adae-d036aaa03f9e" msprop:DbColumnName="id_pais" msprop:FriendlyName="id_pais">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_arancelario" msprop:design-time-name="5219fdf8-fe6d-4acf-9576-4a19ec36fed2" msprop:DbColumnName="id_arancelario" msprop:FriendlyName="id_arancelario" type="xs:int" />
+                  <xs:element name="id_año" msprop:design-time-name="6b09660c-ce50-416f-b728-f45dfccb964b" msprop:DbColumnName="id_año" msprop:FriendlyName="id_año" type="xs:int" />
+                  <xs:element name="cif" msprop:design-time-name="55e35dc5-04d1-4732-b630-a080737c34fc" msprop:DbColumnName="cif" msprop:FriendlyName="cif" type="xs:decimal" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_FECHAS" />
+          <xs:field xpath="id_año" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_PAISES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_PAISES" />
+          <xs:field xpath="id_pais" />
+        </xs:unique>
+        <xs:unique name="dbo_DIM_PRODUCTOS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DIM_PRODUCTOS" />
+          <xs:field xpath="id_arancelario" />
+        </xs:unique>
+        <xs:unique name="dbo_FACTS_VENTAS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_FACTS_VENTAS" />
+          <xs:field xpath="id_pais" />
+          <xs:field xpath="id_arancelario" />
+          <xs:field xpath="id_año" />
+        </xs:unique>
+        <xs:keyref name="fk_id_año" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FACTS_VENTAS" />
+          <xs:field xpath="id_año" />
+        </xs:keyref>
+        <xs:keyref name="fk_id_arancelario" refer="dbo_DIM_PRODUCTOS_Constraint1">
+          <xs:selector xpath=".//dbo_FACTS_VENTAS" />
+          <xs:field xpath="id_arancelario" />
+        </xs:keyref>
+        <xs:keyref name="fk_id_pais" refer="dbo_DIM_PAISES_Constraint1">
+          <xs:selector xpath=".//dbo_FACTS_VENTAS" />
+          <xs:field xpath="id_pais" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Proyecto_x0020_DMD xmlns="" />
+  </Schema>
+</DataSourceView>
