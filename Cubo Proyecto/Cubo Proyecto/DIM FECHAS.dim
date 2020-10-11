@@ -1,11 +1,37 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="adfc4f64-f95e-495d-b7bf-248e9d55f12b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bae611ec-3793-4898-b83d-7611cf721b60" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM FECHAS</ID>
   <Name>DIM FECHAS</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1721" scrolltop="-3903" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7144" y="9260" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DIM_FECHAS" left="-6" top="-238" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3053" height="2354" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000ed0b000032090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_FECHAS" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,54 +47,119 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-1721</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-3903</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>-6</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-238</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f9cf8897-655b-4b90-8789-7c1864d253db">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f5ba1492-1c3f-44c5-918f-1f88b8607d39">
     <DataSourceViewID>Proyecto DMD</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="112dfb2f-25f8-43f2-bc6c-3b0c11e02187">
+  <ErrorConfiguration dwd:design-time-name="a141059a-3871-4e27-ae4b-0de79c84ad4c">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1380a250-fb86-4d62-a641-64a3f0f8e949">
+    <Attribute dwd:design-time-name="a8e126f3-3f7f-4a08-894f-acdf45784c67">
       <ID>Id Año</ID>
       <Name>Id Año</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="078d2fda-32bd-4b14-af4c-e09962e8a5c0">
+        <KeyColumn dwd:design-time-name="572013ca-10b3-4c7b-8749-f862e0e58584">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="027245a3-5bb2-487e-89bc-da6e91538745">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a11ce355-6397-4705-b445-19c4cca6925f">
             <TableID>dbo_DIM_FECHAS</TableID>
             <ColumnID>id_año</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a63c4f65-74c3-4b21-99f7-db0155767992">
+          <AttributeID>Siglo</AttributeID>
+          <Name>Siglo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="815d262f-36de-448b-825b-a33e938fa760">
+          <AttributeID>Decada</AttributeID>
+          <Name>Decada</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="1dc90044-364c-472e-8086-c1688131702b">
+      <ID>Siglo</ID>
+      <Name>Siglo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="52fc3389-9dbb-482b-96e6-986a678c6db4">
+          <DataType>WChar</DataType>
+          <DataSize>18</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fb02c67c-7bec-4cf3-95fa-226739f6dcab">
+            <TableID>dbo_DIM_FECHAS</TableID>
+            <ColumnID>Siglo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8e86329-418a-4706-9c95-a9addfc77024">
+      <ID>Decada</ID>
+      <Name>Decada</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="99c4105d-a8ac-4f83-8c6f-d22cf2b0b018">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bf4022c-5e3e-4a03-a142-5164dfc4af4e">
+            <TableID>dbo_DIM_FECHAS</TableID>
+            <ColumnID>Decada</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="25b92e4d-2934-421e-af82-163b18301151">
+      <ID>Jerarquía</ID>
+      <Name>Jerarquía de Tiempo</Name>
+      <Levels>
+        <Level dwd:design-time-name="ab346006-891e-43b8-b2f2-5ccb0c2dccf6">
+          <ID>Siglo</ID>
+          <Name>Siglo</Name>
+          <SourceAttributeID>Siglo</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4b593000-3bde-4884-9467-fed0724b4c6f">
+          <ID>Decada</ID>
+          <Name>Decada</Name>
+          <SourceAttributeID>Decada</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ff14f3f2-d19f-4b86-9f6d-97f434a40627">
+          <ID>Id Año</ID>
+          <Name>Id Año</Name>
+          <SourceAttributeID>Id Año</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>
