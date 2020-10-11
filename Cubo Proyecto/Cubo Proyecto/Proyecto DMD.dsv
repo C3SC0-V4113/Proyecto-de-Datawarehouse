@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9dec82d9-32c4-4ab5-be6e-5e9e0b012672" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="46567c16-f24d-4b04-aeab-b25097cc9a83" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Proyecto DMD</ID>
   <Name>Proyecto DMD</Name>
   <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
@@ -173,6 +173,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="Continente" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="CASE&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Afganistan' THEN 'Asia'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Alemania' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Andorra' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Argentina' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Australia' THEN 'Oceania'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Austria' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Belgica' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Belice' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Bermudas (R.U.)' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Bolivia' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Brasil' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Camerun' THEN 'Africa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Canada' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Ceilan' THEN 'Asia'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Chile' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Ciudad del Vaticano' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Colombia' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Corea del Sur' THEN 'Asia'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Costa Rica' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Dinamarca' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Ecuador' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Egipto' THEN 'Africa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Espana' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Estados Unidos (U.S.A.)' THEN 'America'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Estonia' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Filipinas' THEN 'Asia'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Finlandia' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Francia' THEN 'Europa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Gambia' THEN 'Africa'&#xD;&#xA;WHEN&#xD;&#xA;id_pais='Grecia' THEN 'Europa'&#xD;&#xA;ELSE&#xD;&#xA;'Desconocido'&#xD;&#xA;END" msprop:IsLogical="True" msprop:design-time-name="34c12b4c-db54-4d10-8859-658941a74457" msprop:DbColumnName="Continente">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="11" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -226,17 +233,17 @@
           <xs:field xpath="id_arancelario" />
           <xs:field xpath="id_año" />
         </xs:unique>
-        <xs:keyref name="fk_id_pais" refer="dbo_DIM_PAISES_Constraint1">
+        <xs:keyref name="fk_id_año" refer="Constraint1">
           <xs:selector xpath=".//dbo_FACTS_VENTAS" />
-          <xs:field xpath="id_pais" />
+          <xs:field xpath="id_año" />
         </xs:keyref>
         <xs:keyref name="fk_id_arancelario" refer="dbo_DIM_PRODUCTOS_Constraint1">
           <xs:selector xpath=".//dbo_FACTS_VENTAS" />
           <xs:field xpath="id_arancelario" />
         </xs:keyref>
-        <xs:keyref name="fk_id_año" refer="Constraint1">
+        <xs:keyref name="fk_id_pais" refer="dbo_DIM_PAISES_Constraint1">
           <xs:selector xpath=".//dbo_FACTS_VENTAS" />
-          <xs:field xpath="id_año" />
+          <xs:field xpath="id_pais" />
         </xs:keyref>
       </xs:element>
     </xs:schema>
