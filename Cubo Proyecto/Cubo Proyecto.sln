@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Cubo Proyecto", "Cubo Proyecto\Cubo Proyecto.dwproj", "{4FC2D07E-B3D2-441B-A8F6-1D5041A58DC5}"
 EndProject
-Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "CIF por países", "CIF por países\CIF por países.rptproj", "{4B8E771E-B394-4B25-A252-625B0346C5E5}"
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Reportes Proyecto DMD", "CIF por países\Reportes Proyecto DMD.rptproj", "{4B8E771E-B394-4B25-A252-625B0346C5E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

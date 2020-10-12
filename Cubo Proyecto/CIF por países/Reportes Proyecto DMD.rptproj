@@ -50,7 +50,11 @@
     <Reports>@(Report)</Reports>
   </PropertyGroup>
   <ItemGroup>
+    <Report Include="Crecimiento de ventas Europa.rdl" />
+    <Report Include="Jerarquías de lugar y tiempo.rdl" />
     <Report Include="Reporte CIF por países.rdl" />
+    <Report Include="Ventas en monedas internacinoales.rdl" />
+    <Report Include="Ventas por producto Norte América.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
