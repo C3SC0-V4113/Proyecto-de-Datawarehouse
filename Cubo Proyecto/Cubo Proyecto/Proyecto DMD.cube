@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a3582658-ae5e-4c91-9323-80240be09a83" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5a28befa-edd2-419b-ab76-07516f2ed055" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Proyecto DMD</ID>
   <Name>Proyecto DMD</Name>
   <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
@@ -8,9 +8,9 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4104" scrolltop="1368" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18759" y="9260" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4104" scrolltop="2857" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="18759" y="9260" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -138,7 +138,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>1368</Value>
+      <Value>2857</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -156,69 +156,69 @@
   <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="3e079feb-4980-498e-a536-4fc84d89dd62">
+    <Dimension dwd:design-time-name="30abeb80-fbb2-4088-b1a1-dee4d2c71846">
       <ID>DIM PAISES</ID>
       <Name>DIM PAISES</Name>
       <DimensionID>DIM PAISES</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="0b82b52a-ffc3-477e-adcf-a80705ae44b8">
+        <Attribute dwd:design-time-name="a26e5728-f5a4-4d5d-9f86-0221497f5ba6">
           <AttributeID>Id Pais</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="480f1994-f821-4acc-b55b-d1194a7c9090">
+        <Attribute dwd:design-time-name="13e87661-caaf-49f9-a3e7-b9d3643e9df9">
           <AttributeID>Continente</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ab66d7ad-fa7a-4f2e-9a9e-a7cd8ee1600c">
+        <Attribute dwd:design-time-name="bb15240a-b9a5-46df-b49c-984b4b68d376">
           <AttributeID>Region Continental</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="67473103-2e20-43e1-bac7-c0002ff2b3df">
+        <Hierarchy dwd:design-time-name="d0212d76-90f0-49e2-bb5f-d4fad72031ab">
           <HierarchyID>Jerarquía</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="7624e472-e639-4ccc-bb6e-7cb9abf30e5e">
+    <Dimension dwd:design-time-name="a4e6f2d1-1401-471d-924d-6c983c4b81af">
       <ID>DIM PRODUCTOS</ID>
       <Name>DIM PRODUCTOS</Name>
       <DimensionID>DIM PRODUCTOS</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2f3af253-8450-40bd-9250-edafdf0ba50e">
+        <Attribute dwd:design-time-name="6936c220-f855-4d45-afcd-b8f5ee4fef22">
           <AttributeID>Id Arancelario</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cb5c4549-c68a-47ee-9baf-dd0a9193668f">
+        <Attribute dwd:design-time-name="f2aaee71-896c-4538-b881-d83ce0c6bc55">
           <AttributeID>Descripcion</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="b38b0fe1-4b46-4a96-8690-0b0c25a0099b">
+        <Hierarchy dwd:design-time-name="3f2c1115-3db9-4418-8a52-89259ccbf04e">
           <HierarchyID>Jerarquía</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="b4e6408f-3212-49a4-8180-c3637f7928d4">
+    <Dimension dwd:design-time-name="85a5ca2e-3dab-49bd-a0e5-23189cf38a03">
       <ID>DIM FECHAS</ID>
       <Name>DIM FECHAS</Name>
       <DimensionID>DIM FECHAS</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2c6509ae-4d1d-4b8a-9dcf-fd11d95b4861">
+        <Attribute dwd:design-time-name="a47a13c7-ecba-44ab-8e41-68c09ce76367">
           <AttributeID>Id Año</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="58e0ae02-c9c7-444f-8e0d-6be57b216fff">
+        <Attribute dwd:design-time-name="b7d4b68b-223a-4d86-aad2-8b306daa188d">
           <AttributeID>Siglo</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="74d11b71-6f08-45dd-9961-f318586bdce5">
+        <Attribute dwd:design-time-name="827f823b-d545-4782-8613-f0c4c8d2b4e7">
           <AttributeID>Decada</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="775dfa1c-dda7-42a0-bb46-d980006abc19">
+        <Hierarchy dwd:design-time-name="d5e98bf7-8549-4c2f-8009-39d00f36938a">
           <HierarchyID>Jerarquía</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="9bdd9cb2-5c60-4b8b-a6d6-9ada652b97bb">
+    <MeasureGroup dwd:design-time-name="4e540d85-edd5-414d-9b74-7ea8d92baacd">
       <ID>FACTS VENTAS</ID>
       <Name>FACTS VENTAS</Name>
       <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
@@ -226,25 +226,25 @@
       <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="22b8835b-7212-41ab-8745-55047ce081dc">
+        <Measure dwd:design-time-name="6c9c6421-19f4-4cf8-8358-e210c81daae3">
           <ID>Cif</ID>
           <Name>Cif</Name>
-          <Source dwd:design-time-name="890b1757-7e38-42f4-bc56-821cdfbe8f3b">
+          <Source dwd:design-time-name="8bcb4e00-82a2-4036-beed-20de7b0213cf">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="295a3068-6440-4d66-9fa2-f240eda6e711">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="90e87f32-d06d-4b00-8acb-0b9723d9bb08">
               <TableID>dbo_FACTS_VENTAS</TableID>
               <ColumnID>cif</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="6ed7c046-8399-4445-8ad1-a70e327c5fb0">
+        <Measure dwd:design-time-name="d93a4f7a-aba5-46e9-a809-dd20dd23a7da">
           <ID>Recuento FACTS VENTAS</ID>
           <Name>Recuento FACTS VENTAS</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="42da1aa7-8dfe-4e10-af83-bcca0b0c4c5b">
+          <Source dwd:design-time-name="05d05325-463f-4d27-959c-1131c90973ab">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="14d35329-3215-4beb-9bac-f65d30a4fb30">
+            <Source xsi:type="RowBinding" dwd:design-time-name="93803906-24f3-49ff-b3b6-448ea8c26f70">
               <TableID>dbo_FACTS_VENTAS</TableID>
             </Source>
           </Source>
@@ -253,16 +253,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dffb6c08-159e-4633-a30d-06b278fa4410">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="40374dd5-0422-4765-a0e1-833277481f20">
           <CubeDimensionID>DIM PAISES</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ac349e5c-6a96-41eb-bba7-9601a5982c23">
+            <Attribute dwd:design-time-name="565bdad2-197a-4964-916a-cb14ce216056">
               <AttributeID>Id Pais</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="e4581db2-6585-4c12-9f87-2eb0a8eca06a">
+                <KeyColumn dwd:design-time-name="619cc529-cca8-44e9-adac-0e1ad4711af1">
                   <DataType>WChar</DataType>
                   <DataSize>30</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8a964952-f1bb-406e-b9f2-c255683b7833">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="91a7d1c7-adc0-4de2-b3bf-d853d4ff3c10">
                     <TableID>dbo_FACTS_VENTAS</TableID>
                     <ColumnID>id_pais</ColumnID>
                   </Source>
@@ -272,15 +272,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="01cd76f1-b8ba-45fc-ba1d-c30d8ed6d2fd">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a8c39334-befd-491e-b71f-46aa0cc65258">
           <CubeDimensionID>DIM PRODUCTOS</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="417f532e-d6ac-43db-9fbe-b24b4479a64a">
+            <Attribute dwd:design-time-name="b4991cee-5921-4ecf-8a19-0857db016eb3">
               <AttributeID>Id Arancelario</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="624844dc-1bae-4ba5-9b38-1b7faa41844e">
+                <KeyColumn dwd:design-time-name="56dbff95-a6ee-4f28-aef3-58060662bea9">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a6ef5a18-dbe8-4507-8333-1ca21566bce3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fc07d750-d51a-41ee-8615-85e7c40a7af9">
                     <TableID>dbo_FACTS_VENTAS</TableID>
                     <ColumnID>id_arancelario</ColumnID>
                   </Source>
@@ -290,15 +290,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a848f761-76be-413b-b001-964a04dabfa0">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="351175fe-62e5-404c-b390-8581033fec84">
           <CubeDimensionID>DIM FECHAS</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f8a28764-c72a-4936-a142-f4c23eb5901c">
+            <Attribute dwd:design-time-name="4ac5119c-7b9d-44a7-9949-ef33dfeed489">
               <AttributeID>Id Año</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="aa185838-5dcd-4a13-a8d4-79245f40694c">
+                <KeyColumn dwd:design-time-name="0e32c43f-aa65-45cb-9e69-d2fe9d17979c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="71097735-7e6f-45be-8edf-da6e1c9f6906">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b519d79b-2590-4bf6-97c6-a6512eb51e3d">
                     <TableID>dbo_FACTS_VENTAS</TableID>
                     <ColumnID>id_año</ColumnID>
                   </Source>
@@ -312,11 +312,11 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="39c50753-39c9-4fca-b9b3-79a12fc28c0f">
+  <Source dwd:design-time-name="d46918cb-6036-4f9a-a905-f093b6ce2eb6">
     <DataSourceViewID>Proyecto DMD</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="5722e47f-dd69-4a43-87c0-7fdad78a3ea3">
+    <MdxScript dwd:design-time-name="90801fe0-cb57-4e34-a0bc-4f8825e430e2">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
@@ -353,4 +353,78 @@ VISIBLE = 1; </Text>
       </Commands>
     </MdxScript>
   </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="3e33286c-4268-4c86-a02c-3207db4c5fc2">
+      <ID>KPI</ID>
+      <Name>KPIComparadoAños</Name>
+      <Value>[Measures].[Cif]</Value>
+      <Goal>[Measures].[Cif]*1.1</Goal>
+      <Status>CASE
+    WHEN KpiValue("KPIComparadoAños")/KpiGoal("KPIComparadoAños")&gt;1
+THEN 1
+    WHEN KpiValue("KPIComparadoAños")/KpiGoal("KPIComparadoAños")&lt;1
+    AND
+    KpiValue("KPIComparadoAños")/KpiGoal("KPIComparadoAños")&gt;0.7
+THEN 0
+ELSE -1
+END</Status>
+      <Trend>CASE
+    WHEN (KpiValue("KPIComparadoAños"),[DIM FECHAS].[Jerarquía de Tiempo].CurrentMember)&gt;(KpiValue("KPIComparadoAños"),[DIM FECHAS].[Jerarquía de Tiempo].PrevMember)
+THEN 1
+    WHEN (KpiValue("KPIComparadoAños"),[DIM FECHAS].[Jerarquía de Tiempo].CurrentMember)&lt;(KpiValue("KPIComparadoAños"),[DIM FECHAS].[Jerarquía de Tiempo].PrevMember)
+THEN -1
+ELSE 0
+END</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Traffic Light</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="6b048f92-3fcc-4f07-a8af-c822e94bbb5d">
+      <ID>KPI 1</ID>
+      <Name>KPIComparandoProductos</Name>
+      <Value>[Measures].[Cif]</Value>
+      <Goal>[Measures].[Cif]*1.1</Goal>
+      <Status>CASE
+    WHEN KpiValue("KPIComparandoProductos")/KpiGoal("KPIComparandoProductos")&gt;1
+THEN 1
+    WHEN KpiValue("KPIComparandoProductos")/KpiGoal("KPIComparandoProductos")&lt;1
+    AND
+    KpiValue("KPIComparandoProductos")/KpiGoal("KPIComparandoProductos")&gt;0.7
+THEN 0
+ELSE -1
+END</Status>
+      <Trend>CASE
+    WHEN (KpiValue("KPIComparandoProductos"),[DIM PRODUCTOS].[Jerarquía Productos].CurrentMember)&gt;(KpiValue("KPIComparandoProductos"),[DIM PRODUCTOS].[Jerarquía Productos].PrevMember)
+THEN 1
+    WHEN (KpiValue("KPIComparandoProductos"),[DIM PRODUCTOS].[Jerarquía Productos].CurrentMember)&lt;(KpiValue("KPIComparandoProductos"),[DIM PRODUCTOS].[Jerarquía Productos].PrevMember)
+THEN -1
+ELSE 0
+END</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Shapes</StatusGraphic>
+    </Kpi>
+    <Kpi dwd:design-time-name="aca764ab-0fa0-42dc-8ad5-d63fd1bd7960">
+      <ID>KPI 2</ID>
+      <Name>KPIComparandoPaises</Name>
+      <Value>[Measures].[Cif]</Value>
+      <Goal>[Measures].[Cif]*1.1</Goal>
+      <Status>CASE
+    WHEN KpiValue("KPIComparandoPaises")/KpiGoal("KPIComparandoPaises")&gt;1
+THEN 1
+    WHEN KpiValue("KPIComparandoPaises")/KpiGoal("KPIComparandoPaises")&lt;1
+    AND
+    KpiValue("KPIComparandoPaises")/KpiGoal("KPIComparandoPaises")&gt;0.7
+THEN 0
+ELSE -1
+END</Status>
+      <Trend>CASE
+    WHEN (KpiValue("KPIComparandoPaises"),[DIM PAISES].[Jerarquía de Lugar].CurrentMember)&gt;(KpiValue("KPIComparandoPaises"),[DIM PAISES].[Jerarquía de Lugar].PrevMember)
+THEN 1
+    WHEN (KpiValue("KPIComparandoPaises"),[DIM PAISES].[Jerarquía de Lugar].CurrentMember)&lt;(KpiValue("KPIComparandoPaises"),[DIM PAISES].[Jerarquía de Lugar].PrevMember)
+THEN -1
+ELSE 0
+END</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Gauge - Ascending</StatusGraphic>
+    </Kpi>
+  </Kpis>
 </Cube>
