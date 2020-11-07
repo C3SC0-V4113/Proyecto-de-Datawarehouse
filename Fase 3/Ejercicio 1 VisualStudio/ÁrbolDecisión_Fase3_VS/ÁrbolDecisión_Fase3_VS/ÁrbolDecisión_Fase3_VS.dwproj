@@ -23,6 +23,10 @@
       <Name>AD_SPA.dmm</Name>
       <FullPath>AD_SPA.dmm</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Clustering__SPA.dmm</Name>
+      <FullPath>Clustering__SPA.dmm</FullPath>
+    </ProjectItem>
   </MiningModels>
   <Configurations>
     <Configuration>
@@ -32,7 +36,7 @@
           <ConfigurationSetting>
             <Id>SPA ESCALON</Id>
             <Name>SPA ESCALON</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-8HOP6MRC;Password=;User ID=;Initial Catalog=SPA_ESCALON</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=LAPTOP-PACHECO;Password=;User ID=;Initial Catalog=SPA_ESCALON</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

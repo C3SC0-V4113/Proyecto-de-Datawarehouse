@@ -11,11 +11,41 @@
   DTS:LocaleID="17418"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{D86F7E9B-047D-4041-B619-FF6ABFC53DBF}">
+  DTS:VersionBuild="18"
+  DTS:VersionGUID="{BD9AEFB3-9B4F-430F-B41C-DBF91CF4F30B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[127.0.0.1.Spa_Diego.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{DA035957-60D5-4FE5-BC30-E81BA6C20052}"
+      DTS:ObjectName="127.0.0.1.Spa_Diego.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=127.0.0.1;User ID=sa;Initial Catalog=Spa_Diego;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATNi88eBkak+ZXyeIOhudxgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABweznjlplfxfggXUx/c6crkRp/nGtR/m31E9doN7zS4gAAAAAOgAAAAAIAACAAAABrBAE1D4DIkQth68fc9lhY9+TMMicpSB2uLL0DnpA8axAAAACCzia5YSGTZz5+coQw5uu8QAAAAAMHiYemaTugfegNbmiXbsnHcs+JO4YXvwH9dJJre0AIgauhYF+9hQvKsZZgm2yKrX/10S9OWj7Lpr1sjPH8F5g</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[127.0.0.1.SPA_ESCALON.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{CA67EFB0-D68A-435C-B868-706800A75559}"
+      DTS:ObjectName="127.0.0.1.SPA_ESCALON.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=127.0.0.1;User ID=sa;Initial Catalog=SPA_ESCALON;Provider=SQLNCLI11.1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATNi88eBkak+ZXyeIOhudxgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuhMisPpQoZa8eUIasPH4MgRw6pAV+icFEqqy3f1jbUwAAAAAOgAAAAAIAACAAAADXegICSTw8OHBTC+yvFSMvH5B6bAaj67XlFWvcxYTbOhAAAACoW13SghDhLpCzNcxh89XLQAAAAN5vhnF+A0kDDLpcIOR92FYaDrb8e/K9ihYOElm42ZYN7dwDHpp81Yb4W60dMaGHVvBfLhF+ZxY2iMRX8kynpio</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[Administrador de conexiones de archivos planos]"
       DTS:CreationName="FLATFILE"
@@ -623,6 +653,410 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 6]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{038A3ED8-F139-481F-B496-92F739FCAEDD}"
+      DTS:ObjectName="Administrador de conexiones de archivos planos 6">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2058"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Proceres\Documents\GitHub\Proyecto-de-Datawarehouse\Fase 3\Ejercicio 1 VisualStudio\ÁrbolDecisión_Fase3_VS\Diego\SpaEscalon_i20191007.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id"
+              DTS:DTSID="{D81EFECD-FDF2-44B0-99FF-48304A182F61}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexo"
+              DTS:DTSID="{2D770CF4-4FBB-4C75-A43D-B5BC41636B22}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ingresos"
+              DTS:DTSID="{CACF1212-9B54-4FAB-97FE-99430BF4EB65}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PromVisit"
+              DTS:DTSID="{6A895087-21BE-4A18-AECA-3691E3E9B9B8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Edad"
+              DTS:DTSID="{9B159643-9424-4F6B-9868-4905900FC72A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sauna"
+              DTS:DTSID="{D67C7225-DBCC-4CD3-A65D-3EBAE835F489}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Masaje"
+              DTS:DTSID="{7A860A7B-44BE-45CC-B95B-5D105ACD8378}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hidro"
+              DTS:DTSID="{B6D593AD-3BF0-4B7A-9481-A84928EEA0B3}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Yoga"
+              DTS:DTSID="{348C65F4-7C08-42C0-A66A-A590B5E1DD99}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 7]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{770BD87F-0410-40B4-9061-6E1BD4609CE7}"
+      DTS:ObjectName="Administrador de conexiones de archivos planos 7">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2058"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Proceres\Documents\GitHub\Proyecto-de-Datawarehouse\Fase 3\Ejercicio 1 VisualStudio\ÁrbolDecisión_Fase3_VS\Diego\SpaCentro_m20191007.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id"
+              DTS:DTSID="{BDDD969E-AED4-4CAF-BCC4-7C6E17B6BE1C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexo"
+              DTS:DTSID="{A60E8208-9797-4378-9BC2-86A742F12D2D}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ingresos"
+              DTS:DTSID="{7E2A9507-1A36-41D7-A03B-488F39C7FA9F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PromVisit"
+              DTS:DTSID="{F334E13B-3745-41C6-9228-FC8CFE49084F}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Edad"
+              DTS:DTSID="{DB439587-F027-47C9-9BEF-7AED282835A5}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sauna"
+              DTS:DTSID="{56C04D42-01AB-4F7B-B789-623AF29AE135}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Masaje"
+              DTS:DTSID="{1CF51CC1-5030-425B-A7E3-394EF4B5BC76}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hidro"
+              DTS:DTSID="{E4BA9C44-BA6C-47B3-9297-C910CE852865}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Yoga"
+              DTS:DTSID="{21885BAA-1995-454F-95A2-EB085883F6B5}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 8]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{58784941-6458-4107-8DE3-1940897CC371}"
+      DTS:ObjectName="Administrador de conexiones de archivos planos 8">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2058"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Proceres\Documents\GitHub\Proyecto-de-Datawarehouse\Fase 3\Ejercicio 1 VisualStudio\ÁrbolDecisión_Fase3_VS\Diego\SpaSantaTecla_m20191007.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id"
+              DTS:DTSID="{B84251CC-69A4-45CD-A837-B417F76CA3BC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexo"
+              DTS:DTSID="{82CFD928-F611-4DE0-AB8A-C47E4155FF51}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ingresos"
+              DTS:DTSID="{7AD4883D-5010-456F-995D-E9E70F74C32E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PromVisit"
+              DTS:DTSID="{88D7F9A6-69DE-460E-8BE9-14FA38F1E52E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Edad"
+              DTS:DTSID="{D3B05B6D-48F9-4233-A24D-24FFAA68B076}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sauna"
+              DTS:DTSID="{E5C297AE-6196-4022-AE73-7B0E4239399C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Masaje"
+              DTS:DTSID="{1F20D5ED-BEF3-4D43-B987-B8236982561A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hidro"
+              DTS:DTSID="{275CABBB-CEB9-4A00-9EFD-AD93D2D1C750}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Yoga"
+              DTS:DTSID="{06058B4E-9F5D-4D01-BF34-7256614A416D}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 9]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{327FCB68-B677-42AC-A58F-3A71506B0B58}"
+      DTS:ObjectName="Administrador de conexiones de archivos planos 9">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="2058"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\Proceres\Documents\GitHub\Proyecto-de-Datawarehouse\Fase 3\Ejercicio 1 VisualStudio\ÁrbolDecisión_Fase3_VS\Diego\SpaEscalon_i20191007.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="id"
+              DTS:DTSID="{5C3F4B37-55F2-489E-B97D-2C478F30A9C0}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sexo"
+              DTS:DTSID="{45F75E23-FD62-4443-8151-CB08457B029B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ingresos"
+              DTS:DTSID="{6564F954-D5B2-437E-A36F-A1C66F495CAC}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PromVisit"
+              DTS:DTSID="{5BC049E8-99F5-40FC-9555-286690B00175}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Edad"
+              DTS:DTSID="{E7F4FF91-05FA-455F-8EE7-FD850E37A9A2}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Sauna"
+              DTS:DTSID="{3970711C-9389-4FF4-B9BA-946CF842C6F1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Masaje"
+              DTS:DTSID="{10ED6B8B-40CD-4E39-8BEF-68F774EFCEC8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Hidro"
+              DTS:DTSID="{480D7A7F-5B62-4A21-A81A-A5307A0275FA}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Yoga"
+              DTS:DTSID="{3820470C-141A-4CCB-A381-2E5C25B5D1D3}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[LAPTOP-8HOP6MRC.SPA_ESCALON]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{EFC85CA2-4C87-429F-9A28-F16000E7A852}"
@@ -639,12 +1073,7 @@
       DTS:ObjectName="LAPTOP-8HOP6MRC.SPA_ESCALON.sa">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LAPTOP-8HOP6MRC;User ID=sa;Initial Catalog=SPA_ESCALON;Provider=SQLNCLI11.1;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOSonHvQdkEu20Tq6EY9I9gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACSJ872zkWvdL+FMivi0/kNqnm6pZ0zqApD3yX+RIyb8QAAAAAOgAAAAAIAACAAAAA7c9YgZYZmNJIM+FFUdJQYHi8x+lkDCXZdcuqKhUKK6yAAAACPfdy//7cUIVdOXFjlLviCeCzVlzUpsC7i5ka/WfqSrUAAAAAyqDT+JWxUw0m5fBCHSdkOhyo/PMXvrjTZdqNRGWnfPPWH0ROEjrm2T6IOqkXQCdtELJDnMnlKw1re2/zqsaRQ</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=LAPTOP-8HOP6MRC;User ID=sa;Initial Catalog=SPA_ESCALON;Provider=SQLNCLI11.1;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -654,12 +1083,7 @@
       DTS:ObjectName="LAPTOP-8HOP6MRC.SPA_ESCALON.sa1">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=LAPTOP-8HOP6MRC;User ID=sa;Initial Catalog=SPA_ESCALON;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOSonHvQdkEu20Tq6EY9I9gAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADONN4r6khBoZzBF0fNdNzRQydr8oDc0DmOVdFRzkfYHQAAAAAOgAAAAAIAACAAAADqdV7/r0sqJh6EZQYBaWaNMj/gVvYqSJuwI72uJCnJ0iAAAACssWgL4/7AnHcJME3N0gJbVu0zmBC60GzUuZMWQ/6i4kAAAACrllKUhr/9FA4JRQ37Po3zyvEwslDzxbPSFuJriVTgTUg+8WuKdXyBCemwSPrVD8hWmkxD6v+VHIXfRMiIS6uC</DTS:Password>
-        </DTS:ConnectionManager>
+          DTS:ConnectionString="Data Source=LAPTOP-8HOP6MRC;User ID=sa;Initial Catalog=SPA_ESCALON;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -1517,8 +1941,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LAPTOP-8HOP6MRC.SPA_ESCALON]"
-                  connectionManagerRefId="Package.ConnectionManagers[LAPTOP-8HOP6MRC.SPA_ESCALON]"
+                  connectionManagerID="Package.ConnectionManagers[127.0.0.1.SPA_ESCALON.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[127.0.0.1.SPA_ESCALON.sa]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -1557,15 +1981,6 @@
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Edad]"
                       lineageId="Package\Data Flow Task\Ordenar.Outputs[Sort Output].Columns[Edad]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[id]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="id"
-                      cachedSortKeyPosition="1"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID]"
-                      lineageId="Package\Data Flow Task\Ordenar.Outputs[Sort Output].Columns[id]" />
-                    <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de _Sexo]"
                       cachedCodepage="1252"
                       cachedDataType="str"
@@ -1574,21 +1989,13 @@
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sexo]"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de _Sexo]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de _Yoga]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de _Sauna]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="21"
-                      cachedName="Copia de _Yoga"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Yoga]"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de _Yoga]" />
-                    <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de _Hidro]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="21"
-                      cachedName="Copia de _Hidro"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Hidro]"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de _Hidro]" />
+                      cachedName="Copia de _Sauna"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sauna]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de _Sauna]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de _Masaje]"
                       cachedCodepage="1252"
@@ -1598,13 +2005,30 @@
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Masaje]"
                       lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de _Masaje]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de _Sauna]"
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de _Hidro]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="21"
-                      cachedName="Copia de _Sauna"
-                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Sauna]"
-                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de _Sauna]" />
+                      cachedName="Copia de _Hidro"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Hidro]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de _Hidro]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de _Yoga]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="21"
+                      cachedName="Copia de _Yoga"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Yoga]"
+                      lineageId="Package\Data Flow Task\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de _Yoga]" />
+                    <inputColumn
+                      refId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[id]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="id"
+                      cachedSortKeyPosition="1"
+                      externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID]"
+                      lineageId="Package\Data Flow Task\Ordenar.Outputs[Sort Output].Columns[id]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -2186,7 +2610,7 @@
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Source"
-              localeId="17418"
+              localeId="2058"
               name="SDiego_Centro"
               usesDispositions="true"
               version="1">
@@ -2203,8 +2627,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\SDiego_Centro.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones de archivos planos 3]"
-                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 3]"
+                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones de archivos planos 7]"
+                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 7]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -2503,7 +2927,7 @@
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Source"
-              localeId="17418"
+              localeId="2058"
               name="SDiego_Escalon"
               usesDispositions="true"
               version="1">
@@ -2520,8 +2944,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\SDiego_Escalon.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones de archivos planos 5]"
-                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 5]"
+                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones de archivos planos 9]"
+                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 9]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -2820,7 +3244,7 @@
               componentClassID="Microsoft.FlatFileSource"
               contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
               description="Flat File Source"
-              localeId="17418"
+              localeId="2058"
               name="SDiego_Sta_Tecla"
               usesDispositions="true"
               version="1">
@@ -2837,8 +3261,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\SDiego_Sta_Tecla.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones de archivos planos 4]"
-                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 4]"
+                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones de archivos planos 8]"
+                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones de archivos planos 8]"
                   name="FlatFileConnection" />
               </connections>
               <outputs>
@@ -3709,7 +4133,7 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
-          Size="150.4,41.6"
+          Size="150,42"
           Id="Package\Data Flow Task"
           TopLeft="210.000003576279,139.176472540133" />
       </GraphLayout>
@@ -3721,39 +4145,39 @@
       <GraphLayout
         Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="170.4,41.6"
+          Size="170,42"
           Id="Package\Data Flow Task\OLE DB Destination"
           TopLeft="738.571441149225,268.411768470256" />
         <NodeLayout
-          Size="155.2,41.6"
+          Size="155,42"
           Id="Package\Data Flow Task\Data Conversion"
           TopLeft="732.142869611176,190.411767376336" />
         <NodeLayout
-          Size="148,41.6"
+          Size="148,42"
           Id="Package\Data Flow Task\SDiego_Centro"
           TopLeft="42.1428578605458,113.176472175493" />
         <NodeLayout
-          Size="163.2,41.6"
+          Size="163,42"
           Id="Package\Data Flow Task\SDiego_Sta_Tecla"
           TopLeft="44.2857150398954,180.470590766326" />
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153,42"
           Id="Package\Data Flow Task\Derived Column"
           TopLeft="520.714294581997,110.88235449626" />
         <NodeLayout
-          Size="161.6,41.6"
+          Size="162,42"
           Id="Package\Data Flow Task\Unión_Spa_Diego"
           TopLeft="257.857147248424,112.411766282415" />
         <NodeLayout
-          Size="126.4,41.6"
+          Size="126,42"
           Id="Package\Data Flow Task\Aggregate"
           TopLeft="359.285720404314,203.411767558656" />
         <NodeLayout
-          Size="152.8,41.6"
+          Size="153,42"
           Id="Package\Data Flow Task\SDiego_Escalon"
           TopLeft="42.8571435869956,45.1176476915815" />
         <NodeLayout
-          Size="116.8,41.6"
+          Size="117,42"
           Id="Package\Data Flow Task\Ordenar"
           TopLeft="745.714298413725,110.117648603182" />
         <EdgeLayout
