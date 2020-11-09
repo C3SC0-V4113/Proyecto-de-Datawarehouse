@@ -1,0 +1,263 @@
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="56841f53-5713-4182-b7e1-159589ad4d1b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Clustering__SPA</ID>
+  <Name>Clustering__SPA</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CaseTableName</Name>
+      <Value>dbo_Clientes</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="461589eb-5029-4444-a1ed-8b51921837a2">
+    <DataSourceViewID>SPA ESCALON</DataSourceViewID>
+  </Source>
+  <Columns>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="801ae6a6-7c08-4228-a870-bd9b1f968e92">
+      <ID>Edad</ID>
+      <Name>Edad</Name>
+      <Type>Long</Type>
+      <Content>Continuous</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b93576c-b481-485f-95e1-9bfb1a5e798f">
+          <DataType>Integer</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="65b40e26-76da-4437-9f35-0fdb3620d325">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>Edad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="299271c8-7d76-440f-bba4-d986db8ed88c">
+      <ID>Hidro</ID>
+      <Name>Hidro</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1ba9fb1c-f688-46c4-a4e7-7061f30c8661">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b357643-2450-440c-b644-4cf24a4e585c">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>Hidro</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="acce5010-6129-4d86-bb93-263e52f64e5f">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <IsKey>true</IsKey>
+      <Type>Text</Type>
+      <Content>Key</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b9cc999e-e423-4087-9be9-69c0a8a08904">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="96b448c8-9646-4607-9487-771924d4d77a">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="77138c27-446b-42d9-a60f-2bf0f9e510f7">
+      <ID>Ingresos</ID>
+      <Name>Ingresos</Name>
+      <Type>Double</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d85a64c3-b6e6-4706-b489-f677ba4ad358">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dfed514a-556c-4bab-af7a-6143cc2a08b2">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>Ingresos</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="fdd1b5ee-4193-44ea-87ce-31d4c51aedb8">
+      <ID>Masaje</ID>
+      <Name>Masaje</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="73e6058b-29bf-4caa-9cfd-0d61a9739df7">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f8250af5-dd71-4669-a1f9-e9aa2a2aea7d">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>Masaje</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="8f3ae386-dd10-4329-b7ee-f63e412068e2">
+      <ID>Prom Visit</ID>
+      <Name>Prom Visit</Name>
+      <Type>Double</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8732a3a9-c4e5-4b4e-93b3-e7fcd4cb2526">
+          <DataType>Double</DataType>
+          <DataSize>-1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d3b43a54-8899-47dd-b6f1-e80333f05e27">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>PromVisit</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="fb0c8301-6aaa-4eea-9fc2-b763be530394">
+      <ID>Sauna</ID>
+      <Name>Sauna</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6b1976ad-e777-4a19-bf56-3e6dd225f304">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="466d3206-8339-4a90-8467-1a979cdd927a">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>Sauna</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0d45400b-9434-49ad-ab36-94dc997ac91c">
+      <ID>Sexo</ID>
+      <Name>Sexo</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d689321-4fe5-4bff-a7d7-65e6803a9057">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e22d2f8-d31d-4aa2-9581-2502e149492d">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>Sexo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="121d9767-a0b9-4a05-836f-885b5f715a2e">
+      <ID>Yoga</ID>
+      <Name>Yoga</Name>
+      <Type>Text</Type>
+      <Content>Discrete</Content>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="43ad52dc-d9d9-4618-862b-3cd76ed42620">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91fe1b83-fc33-4bef-96c6-d40e6b256499">
+            <TableID>dbo_Clientes</TableID>
+            <ColumnID>Yoga</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+    </Column>
+  </Columns>
+  <MiningModels>
+    <MiningModel dwd:design-time-name="d68375c2-e273-4ada-a4ca-8fbe20495f84">
+      <ID>Clustering__SPA_CLIENTES</ID>
+      <Name>Clustering__SPA_CLIENTES</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Algorithm>Microsoft_Clustering</Algorithm>
+      <Columns>
+        <Column dwd:design-time-name="b787e2fd-ffa2-47a0-9537-0112df8e4e0c">
+          <ID>Edad</ID>
+          <Name>Edad</Name>
+          <SourceColumnID>Edad</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="84107b25-d15f-4224-a0ed-4db7cb31c695">
+          <ID>Hidro</ID>
+          <Name>Hidro</Name>
+          <SourceColumnID>Hidro</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="8798e549-a369-438d-81f3-88990070baa7">
+          <ID>ID</ID>
+          <Name>ID</Name>
+          <SourceColumnID>ID</SourceColumnID>
+          <Usage>Key</Usage>
+        </Column>
+        <Column dwd:design-time-name="b71ec0a9-8ec8-4b9e-9049-eaf8df257166">
+          <ID>Ingresos</ID>
+          <Name>Ingresos</Name>
+          <SourceColumnID>Ingresos</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="f77d1d74-a279-4060-b56e-500c0005af12">
+          <ID>Masaje</ID>
+          <Name>Masaje</Name>
+          <SourceColumnID>Masaje</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="818f0c46-bae3-409f-a2ca-af1813c79fa7">
+          <ID>Prom Visit</ID>
+          <Name>Prom Visit</Name>
+          <SourceColumnID>Prom Visit</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="0e489df9-c110-4f25-a6a9-f30cf16fff5c">
+          <ID>Sauna</ID>
+          <Name>Sauna</Name>
+          <SourceColumnID>Sauna</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="2de072ad-3004-4994-abd8-403e0a52907f">
+          <ID>Sexo</ID>
+          <Name>Sexo</Name>
+          <SourceColumnID>Sexo</SourceColumnID>
+        </Column>
+        <Column dwd:design-time-name="421d2db0-c085-4211-be35-741bf95578bc">
+          <ID>Yoga</ID>
+          <Name>Yoga</Name>
+          <SourceColumnID>Yoga</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+      </Columns>
+    </MiningModel>
+  </MiningModels>
+  <ddl100_100:HoldoutMaxPercent>30</ddl100_100:HoldoutMaxPercent>
+</MiningStructure>
